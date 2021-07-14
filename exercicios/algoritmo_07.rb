@@ -1,4 +1,4 @@
-#Crie um programa que receba 5 números positivos de forma aleatória, e os apresente em ordem crescente.
+##Crie um programa que receba 5 números positivos de forma aleatória, e os apresente em ordem crescente.
 
 puts "random numbers"
 numeros = [6, 5, 2, 7, 9]
