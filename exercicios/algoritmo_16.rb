@@ -29,3 +29,8 @@ def numeros_positivo_negativo(numero)
     if numero > 0
      puts "O numero é ímpar e positivo."
     else
+      puts "O numero é ímpar e negativo."
+    end
+  end
+end
+ 
