@@ -4,3 +4,7 @@ puts "escreva um numero."
 numero = gets.chomp.to_i
 if numero % 2 == 0
   if numero > 0
+    puts "O numero é par e positivo."
+  else
+    puts "O numero é par e negativo."
+  end
