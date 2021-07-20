@@ -1,1 +1,1 @@
-#Escreva um algoritmo que receba o nome de um aluno e 3 notas e faça a média aritmética. E mostre se o aluno foi aprovado se a média for maior ou igual a 6.0, recuperação se for menor que 6 e maior ou igual a 3, e se reprovado se a nota for menor que 3. O algoritmo deve reconhecer e negar operação quando a nota for menor que zero ou maior que 10
+#Faça um algoritmo que leia um número inteiro e mostre uma mensagem indicando se este número é par ou ímpar, e se é positivo ou negativo.
