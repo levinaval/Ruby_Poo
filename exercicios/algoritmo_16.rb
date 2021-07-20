@@ -17,3 +17,7 @@ if numero % 2 == 0
 end
 
 # ou
+
+def numeros_positivo_negativo(numero)
+  if numero % 2 == 0
+     if numero > 0
