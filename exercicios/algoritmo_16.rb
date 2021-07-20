@@ -25,3 +25,7 @@ def numeros_positivo_negativo(numero)
     else
      puts "O numero é par e negativo."
     end
+  else
+    if numero > 0
+     puts "O numero é ímpar e positivo."
+    else
