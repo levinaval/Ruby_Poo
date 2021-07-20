@@ -34,3 +34,6 @@ def numeros_positivo_negativo(numero)
   end
 end
  
+numero = gets.chomp.to_i
+
+numeros_positivo_negativo(numero)
