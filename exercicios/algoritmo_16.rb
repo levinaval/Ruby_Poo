@@ -2,3 +2,5 @@
 
 puts "escreva um numero."
 numero = gets.chomp.to_i
+if numero % 2 == 0
+  if numero > 0
