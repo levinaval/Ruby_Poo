@@ -15,3 +15,5 @@ if numero % 2 == 0
     puts "O numero é ímpar e negativo."
   end
 end
+
+# ou
