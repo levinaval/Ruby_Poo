@@ -9,4 +9,7 @@ puts "1. adiciona aluno e nota, 2. sair:"
      nota1 = gets.chomp.to_f
      nota2 = gets.chomp.to_f
      nota3 = gets.chomp.to_f
+     notas << nota1 
+     notas << nota2
+     notas << nota3 # notas.push(nota1, nota2, nota3)
      
