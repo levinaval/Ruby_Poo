@@ -1,0 +1,4 @@
+turma = {}
+notas = []
+
+ 
