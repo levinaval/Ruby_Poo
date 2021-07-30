@@ -18,4 +18,6 @@ puts "1. adiciona aluno e nota, 2. sair:"
       puts "Obrigado!"
       break
     else
-     
+      puts "Não existe essa operação"
+    end
+  end
