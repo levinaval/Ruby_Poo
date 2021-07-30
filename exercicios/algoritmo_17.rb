@@ -16,4 +16,6 @@ puts "1. adiciona aluno e nota, 2. sair:"
      puts turma
     elsif cod == 2
       puts "Obrigado!"
-       
+      break
+    else
+     
