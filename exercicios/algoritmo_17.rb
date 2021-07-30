@@ -7,4 +7,6 @@ puts "1. adiciona aluno e nota, 2. sair:"
     puts "Digite o nome do aluno."
      aluno = gets.chomp
      nota1 = gets.chomp.to_f
+     nota2 = gets.chomp.to_f
+     nota3 = gets.chomp.to_f
      
