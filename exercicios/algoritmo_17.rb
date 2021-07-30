@@ -14,4 +14,6 @@ puts "1. adiciona aluno e nota, 2. sair:"
      notas << nota3 # notas.push(nota1, nota2, nota3)
      turma[aluno] = notas
      puts turma
-   
+    elsif cod == 2
+      puts "Obrigado!"
+       
