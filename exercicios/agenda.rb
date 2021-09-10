@@ -16,11 +16,11 @@ end
 
 def adicionar_contatos
   print "nome:"
-  nome = get.chomp
+  nome = gets.chomp
   print "telefone:"
-  telefone = get.chomp.to_i
+  telefone = gets.chomp.to_i
   
-  agenda << 
+  @agenda << {nome: nome, telefone: telefone}
 end
 
 loop do
