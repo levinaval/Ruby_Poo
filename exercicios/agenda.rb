@@ -9,7 +9,7 @@
 
 def todos_os_contatos
     @agenda.each do |contato|
-      puts "#{contato[:nome]} - #{:telefone}"
+      puts "#{contato[:nome]} - #{contato[:telefone]}"
     end
     puts"--------------------------"
 end
