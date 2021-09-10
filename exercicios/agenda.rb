@@ -14,6 +14,12 @@ def todos_os_contatos
     puts"--------------------------"
 end
 
+def adicionar_contatos
+  nome = get.chomp
+  telefone = get.chomp.to_i
+  
+end
+
 loop do
   
   puts "1-Contatos, 2-Adicionar, 3-Ver contatos, 4-Editar contato, 5-Remover, 0-Sair"
@@ -24,6 +30,12 @@ loop do
   when codigo == 0
     puts "Sair... Até mais"
     break
+  
+  when codigo == 1
+    todos_os_contatos
+  
+  when codigo == 2
+    adicionar_contatos
 
   end
 end
