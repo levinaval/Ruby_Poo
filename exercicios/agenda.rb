@@ -11,6 +11,7 @@ def todos_os_contatos
     @agenda.each do /contato/
       puts "#{contato[:nome]} - #{:telefone}"
     end
+    puts"--------------------------"
 end
 
 loop do
@@ -18,7 +19,7 @@ loop do
   puts "1-Contatos, 2-Adicionar, 3-Ver contatos, 4-Editar contato, 5-Remover, 0-Sair"
 
   codigo = gets.chomp.to_i
-
+                                
   case 
   when codigo == 0
     puts "Sair... Até mais"
