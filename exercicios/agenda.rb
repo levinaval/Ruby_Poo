@@ -3,12 +3,12 @@
 #podendo ver todos os contatos ou somente um.
 
 @agenda = [
-    {nome: "Fulano", telefone "90000-0000"}
-    {nome: "flamengo", telefone "91111-1111"}
+    {nome: "Fulano", telefone: "90000-0000"}
+    {nome: "flamengo", telefone: "91111-1111"}
 ]
 
 def todos_os_contatos
-    @agenda.each do /contato/
+    @agenda.each do |contato|
       puts "#{contato[:nome]} - #{:telefone}"
     end
     puts"--------------------------"
