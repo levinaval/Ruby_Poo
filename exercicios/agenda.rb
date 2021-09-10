@@ -15,9 +15,12 @@ def todos_os_contatos
 end
 
 def adicionar_contatos
+  print "nome:"
   nome = get.chomp
+  print "telefone:"
   telefone = get.chomp.to_i
   
+  agenda << 
 end
 
 loop do
