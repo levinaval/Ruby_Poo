@@ -4,7 +4,8 @@
 
 @agenda = [
     {nome: "Fulano", telefone: "90000-0000"},
-    {nome: "flamengo", telefone: "91111-1111"}
+    {nome: "flamengo", telefone: "91111-1111"},
+    {nome: "ba", telefone: "99112-1212"}
 ]
 
 def todos_os_contatos
@@ -25,14 +26,15 @@ end
 
 def ver_contato
   print "que contato quer ver?"
-  nome = gets.chomp
   #puts"--------------------------"
+  nome = gets.chomp
+  
   @agenda.each do |contato|
     if contato[:nome].downcase.include?(nome.downcase)
     puts "#{contato[:nome]} - #{contato[:telefone]}"
-    
-    end
     puts"--------------------------"
+    end
+  
   end  
 end
 
