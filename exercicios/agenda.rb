@@ -26,16 +26,27 @@ end
 
 def ver_contato
   print "que contato quer ver?"
-  puts"--------------------------"
+  #puts"--------------------------"
   nome = gets.chomp
   
   @agenda.each do |contato|
     if contato[:nome].downcase.include?(nome.downcase)
     puts "#{contato[:nome]} - #{contato[:telefone]}"
-   
+    break
     end
   end
   puts"--------------------------"
+end
+
+def Editar_contato
+  print "nome a ser editado:"
+  nome = gets.chomp
+
+  @agenda.each do |contato|
+    if contato[:nome].downcase == (nome.downcase)
+      print " " 
+    end
+  end
 end
 
 loop do
@@ -58,6 +69,9 @@ loop do
 
   when codigo == 3
     ver_contato
+
+  when codigo == 4
+    Editar_contato
 
   end
 end
