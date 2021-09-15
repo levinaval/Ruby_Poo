@@ -4,8 +4,8 @@
 
 @agenda = [
     {nome: "Fulano", telefone: "90000-0000"},
-    {nome: "flamengo", telefone: "91111-1111"},
-    {nome: "ba", telefone: "99112-1212"}
+    {nome: "Flamengo", telefone: "91111-1111"},
+    {nome: "Ba", telefone: "99112-1212"}
 ]
 
 def todos_os_contatos
@@ -16,16 +16,16 @@ def todos_os_contatos
 end
 
 def adicionar_contatos
-  print "nome:"
+  print "Nome:"
   nome = gets.chomp
-  print "telefone:"
+  print "Telefone:"
   telefone = gets.chomp.to_i
   
   @agenda << {nome: nome, telefone: telefone}
 end
 
 def ver_contato
-  print "que contato quer ver?"
+  print "Que contato quer ver?"
   #puts"--------------------------"
   nome = gets.chomp
   
@@ -39,12 +39,12 @@ def ver_contato
 end
 
 def Editar_contato
-  print "nome a ser editado:"
+  print "Nome a ser editado:"
   nome = gets.chomp
 
   @agenda.each do |contato|
     if contato[:nome].downcase == (nome.downcase)
-      print " " 
+      print "Novo nome. (Se)" 
     end
   end
 end
