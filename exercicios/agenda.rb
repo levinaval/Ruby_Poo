@@ -44,7 +44,17 @@ def Editar_contato
 
   @agenda.each do |contato|
     if contato[:nome].downcase == (nome.downcase)
-      print "Novo nome. (Se)" 
+    print "Novo nome. (Para manter o mesmo nome, aperte ENTER)"
+    nome_salvo = contato[:nome] 
+    
+    contato[:nome] = gets.chomp
+    contato[:nome] = contato[:nome].empty? ? nome_salvo : contato[:nome] 
+
+    print "Novo telefone. (Para manter o mesmo telefone, aperte ENTER)"
+    telefone_salvo = contato[:telefone] 
+    
+    contato[:telefone] = gets.chomp
+    contato[:telefone] = contato[:telefone].empty? ? telefone_salvo : contato[:telefone] 
     end
   end
 end
