@@ -38,7 +38,7 @@ def ver_contato
   puts"--------------------------"
 end
 
-def Editar_contato
+def editar_contato
   print "Nome a ser editado:"
   nome = gets.chomp
 
@@ -61,7 +61,7 @@ end
 
 loop do
   
-  puts %w(1-Contatos, 2-Adicionar, 3-Ver_contatos, 4-Editar_contato, 5-Remover, 0-Sair)
+  puts %w(1-Contatos, 2-Adicionar, 3-Ver_contatos, 4-Editar_contatos, 5-Remover, 0-Sair)
 
   codigo = gets.chomp.to_i
   puts "-----------------"
@@ -81,7 +81,7 @@ loop do
     ver_contato
 
   when codigo == 4
-    Editar_contato
+    editar_contato
 
   end
 end
