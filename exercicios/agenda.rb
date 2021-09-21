@@ -63,12 +63,13 @@ def remover_contato
    print "qual o contato voçê quer re-mover?"
    nome = gets.chomp
 
-   @agenda.each do |contato|
+  @agenda.each do |contato|
     if contato[:nome].downcase == (nome.downcase)
-    indice = @agenda.index(contato)
-    @agenda.delete_at(indice)
-    break
+      indice = @agenda.index(contato)
+      @agenda.delete_at(indice)
+      break
     end
+  end
 end
 loop do
   
