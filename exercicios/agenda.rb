@@ -59,6 +59,9 @@ def editar_contato
   end
 end
 
+def remover_contato
+
+end
 loop do
   
   puts %w(1-Contatos, 2-Adicionar, 3-Ver_contatos, 4-Editar_contatos, 5-Remover, 0-Sair)
@@ -85,6 +88,6 @@ loop do
 
   when codigo == 5
     editar_contato
-    
+
   end
 end
