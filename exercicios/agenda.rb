@@ -60,8 +60,8 @@ def editar_contato
 end
 
 def remover_contato
-   print "qual o contato voçê quer re-mover?"
-   nome = gets.chomp
+  print "qual o contato voçê quer re-mover?"
+  nome = gets.chomp
 
   @agenda.each do |contato|
     if contato[:nome].downcase == (nome.downcase)
@@ -96,7 +96,7 @@ loop do
     editar_contato
 
   when codigo == 5
-    editar_contato
+    remover_contato
 
   end
 end
