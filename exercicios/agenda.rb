@@ -60,7 +60,9 @@ def editar_contato
 end
 
 def remover_contato
-
+   print "qual o contato voçê quer re-mover?"
+   nome = gets.chomp
+   
 end
 loop do
   
