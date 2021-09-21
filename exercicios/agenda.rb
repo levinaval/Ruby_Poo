@@ -62,7 +62,8 @@ end
 def remover_contato
    print "qual o contato voçê quer re-mover?"
    nome = gets.chomp
-   
+
+   @agenda.each do |contato|
 end
 loop do
   
