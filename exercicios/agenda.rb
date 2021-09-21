@@ -83,5 +83,8 @@ loop do
   when codigo == 4
     editar_contato
 
+  when codigo == 5
+    editar_contato
+    
   end
 end
