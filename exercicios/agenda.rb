@@ -64,6 +64,7 @@ def remover_contato
    nome = gets.chomp
 
    @agenda.each do |contato|
+  if contato[:nome].downcase == (nome.downcase)
 end
 loop do
   
