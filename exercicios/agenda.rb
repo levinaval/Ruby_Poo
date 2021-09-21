@@ -97,6 +97,7 @@ loop do
 
   when codigo == 5
     remover_contato
-
+  else
+    puts "Opção não valida!!"
   end
 end
