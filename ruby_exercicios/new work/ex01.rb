@@ -1,6 +1,6 @@
 #puts "hello world!!" /O que estiver entre aspas duplas é uma String/
 
-nome = "Levi" #isto é uma variavel
+nome = "Levi" #isto é uma variavel(Quarda informações a serem apresentadas.)
 idade = 37
 
 puts "hello #{nome}" #Deforma não precisamos efetuar mudanças em todas as linhas. só na variavel!
