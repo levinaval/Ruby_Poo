@@ -1,1 +1,3 @@
 puts "Vamos calcular?"
+
+puts
