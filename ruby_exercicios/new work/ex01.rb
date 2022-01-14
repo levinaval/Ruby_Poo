@@ -15,7 +15,7 @@ puts "Você tem #{idade} e esta estudando para se tornar um Dv"
 #nome = " " isto é uma variavel(Quarda informações a serem apresentadas.)
 #idade =
 
-# Devemos utilizar #{ } para aparecer a informação da de uma Variavel. desta forma não precisamos efetuar mudanças em todas as linhas. só na variavel!
+# Devemos utilizar #{ } para aparecer a informação da de uma Variavel(Que pode ser texto ou numeros). desta forma não precisamos efetuar mudanças em todas as linhas. só na variavel!
 
 # A utilização do "CHOMP" é de abstrair o mometo em que se aperta o enter.
 
