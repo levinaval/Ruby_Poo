@@ -17,4 +17,6 @@ puts "Você tem #{idade} e esta estudando para se tornar um Dv"
 
 # Devemos utilizar #{ } para aparecer a informação da de uma Variavel. desta forma não precisamos efetuar mudanças em todas as linhas. só na variavel!
 
-# A função do "CHOMP" é de abstrair o mometo em que se aperta o enter.
+# A utilização do "CHOMP" é de abstrair o mometo em que se aperta o enter.
+
+# A utilização do "to_i" é pata transformar a informação do teclado em número inteiro.
