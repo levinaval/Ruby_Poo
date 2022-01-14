@@ -2,3 +2,6 @@
 
 nome = "Levi" /isto é uma variavel/
 
+puts "hello #{nome}" /Deforma não precisamos efetuar mudanças em todas as linhas. só na variavel!/
+
+puts
