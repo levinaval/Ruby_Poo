@@ -1,3 +1,6 @@
+puts "Hello world!!"
+puts
+
 puts "Me diga seu nome."
 nome = gets.chomp
 
