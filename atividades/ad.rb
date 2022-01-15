@@ -1,0 +1,23 @@
+- [ ] # <<
+- [ ] # ==
+- [ ] # ===
+- [ ] # >>
+- [ ] # []
+- [ ] #arity
+- [ ] #ligar
+- [ ] #clone
+- [ ] #Curry
+- [ ] #eql?
+- [ ] #cerquilha
+- [ ] #inspecionar
+- [ ] #nome
+- [ ] #nome original
+- [ ] #proprietário
+- [ ] #parameters
+- [ ] #receiver
+- [ ] #source_location
+- [ ] #super_method
+- [ ] #to_proc
+- [ ] #para% s
+- [ ] #unbind
+- [ ]
