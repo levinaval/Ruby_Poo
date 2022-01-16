@@ -13,28 +13,27 @@ para iniciantes
 ## Algoritmos
 
 * Classe
-  * Cachorro ([Descrição](https://youtu.be/p90UU7Pwh1U) | [Código](/algoritimo/cachorro.rb))
-  * Carro ([Descrição](https://youtu.be/p90UU7Pwh1U) | [Código](/algoritimo/carro.rb))
-  * Funcionario ([Descrição](https://youtu.be/p90UU7Pwh1U) | [Código](/algoritimo/funcionario.rb))
-  * Professor ([Descrição](https://youtu.be/p90UU7Pwh1U) | [Código](/algoritimo/professor.rb))
-  * Turma ([Descrição](https://youtu.be/p90UU7Pwh1U) | [Código](/algoritimo/turma.rb))
+  * Cachorro ([Descrição](https://youtu.be/p90UU7Pwh1U) | [Código](/classe/cachorro.rb))
+  * Carro ([Descrição](https://youtu.be/p90UU7Pwh1U) | [Código](/classe/carro.rb))
+  * Funcionario ([Descrição](https://youtu.be/p90UU7Pwh1U) | [Código](/classe/funcionario.rb))
+  * Professor ([Descrição](https://youtu.be/p90UU7Pwh1U) | [Código](/classe/professor.rb))
+  * Turma ([Descrição](https://youtu.be/p90UU7Pwh1U) | [Código](/classe/turma.rb))
 * Encapsulamento  
-  * Pessoa ([Descrição](https://www.youtube.com/watch?v=NYDWIYTvu4w&t=1s) | [Código](/algoritimo/pessoa.rb))
+  * Pessoa ([Descrição](https://www.youtube.com/watch?v=NYDWIYTvu4w&t=1s) | [Código](/encapsulamento/pessoa.rb))
 * Herança
   * Pessoa
-  * Aluno ([Descrição](https://www.youtube.com/watch?v=qJZoLQDr7Es&t=23s) | [Código](/algoritimo/aluno.rb))
-  * Diretor ([Descrição](https://www.youtube.com/watch?v=qJZoLQDr7Es&t=23s) | [Código](/algoritimo/diretor.rb))
-  * Pessoa ([Descrição](https://www.youtube.com/watch?v=qJZoLQDr7Es&t=23s) | [Código](/algoritimo/pessoa.rb))
-  * Professor ([Descrição](https://www.youtube.com/watch?v=qJZoLQDr7Es&t=23s) | [Código](/algoritimo/professor.rb))
-  * Animal ([Descrição](https://www.youtube.com/watch?v=qJZoLQDr7Es&t=23s) | [Código](/algoritimo/animal.rb))
+  * Aluno ([Descrição](https://www.youtube.com/watch?v=qJZoLQDr7Es&t=23s) | [Código](/heranca/pessoa/aluno.rb))
+  * Diretor ([Descrição](https://www.youtube.com/watch?v=qJZoLQDr7Es&t=23s) | [Código](/heranca/pessoa/diretor.rb))
+  * Pessoa ([Descrição](https://www.youtube.com/watch?v=qJZoLQDr7Es&t=23s) | [Código](/heranca/pessoa/pessoa.rb))
+  * Professor ([Descrição](https://www.youtube.com/watch?v=qJZoLQDr7Es&t=23s) | [Código](/heranca/pessoa/professor.rb))
 * Polimorfismo
-  * calculdora ([Descrição](https://www.youtube.com/watch?v=qJZoLQDr7Es&t=23s) | [Código](/algoritimo/caculadora.rb))
+  * calculdora ([Descrição](https://www.youtube.com/watch?v=qJZoLQDr7Es&t=23s) | [Código](https://github.com/levinaval/ruby/blob/master/polimorfismo/calculadora.rb))
 * Projeto Final
-  * Aluno ([Descrição](https://youtu.be/6pKVQDZEzcY) | [Código](/algoritimo/aluno.rb))
-  * Main ([Descrição](https://youtu.be/6pKVQDZEzcY) | [Código](/algoritimo/main.rb))
-  * Pessoa ([Descrição](https://youtu.be/6pKVQDZEzcY) | [Código](/algoritimo/pessoa.rb))
-  * Professor ([Descrição](https://youtu.be/6pKVQDZEzcY) | [Código](/algoritimo/professor.rb))
-  * Turma ([Descrição](https://youtu.be/6pKVQDZEzcY) | [Código](/algoritimo/turma.rb))
+  * Aluno ([Descrição](https://youtu.be/6pKVQDZEzcY) | [Código](/projeto_final/aluno.rb))
+  * Main ([Descrição](https://youtu.be/6pKVQDZEzcY) | [Código](/projeto_final/main.rb))
+  * Pessoa ([Descrição](https://youtu.be/6pKVQDZEzcY) | [Código](/projeto_final/pessoa.rb))
+  * Professor ([Descrição](https://youtu.be/6pKVQDZEzcY) | [Código](/projeto_final/professor.rb))
+  * Turma ([Descrição](https://youtu.be/6pKVQDZEzcY) | [Código](/projeto_final/turma.rb)
 
   ## Reconhecimentos
 
