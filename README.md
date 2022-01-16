@@ -19,7 +19,7 @@ para iniciantes
   * Professor ([Descrição](https://youtu.be/p90UU7Pwh1U) | [Código](/algoritimo/professor.rb))
   * Turma ([Descrição](https://youtu.be/p90UU7Pwh1U) | [Código](/algoritimo/turma.rb))
 * Encapsulamento  
-  * Pessoa ([Descrição](https://www.youtube.com/watch?v=NYDWIYTvu4w&t=1s) | [Código](/algoritimo/pessoa.rb))
+  * Pessoa ([Descrição](https://www.youtube.com/watch?v=NYDWIYTvu4w&t=1s) | [Código](/encapsulamento/pessoa.rb))
 * Herança
   * Pessoa
   * Aluno ([Descrição](https://www.youtube.com/watch?v=qJZoLQDr7Es&t=23s) | [Código](/heranca/pessoa/aluno.rb))
