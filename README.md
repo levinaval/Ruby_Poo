@@ -22,7 +22,7 @@ para iniciantes
   * Pessoa ([Descrição](https://www.youtube.com/watch?v=NYDWIYTvu4w&t=1s) | [Código](/algoritimo/pessoa.rb))
 * Herança
   * Pessoa
-  * Aluno ([Descrição](https://www.youtube.com/watch?v=qJZoLQDr7Es&t=23s) | [Código](https://github.com/levinaval/ruby/blob/master/heranca/pessoa/aluno.rb))
+  * Aluno ([Descrição](https://www.youtube.com/watch?v=qJZoLQDr7Es&t=23s) | [Código](/heranca/pessoa/aluno.rb))
   * Diretor ([Descrição](https://www.youtube.com/watch?v=qJZoLQDr7Es&t=23s) | [Código](/algoritimo/diretor.rb))
   * Pessoa ([Descrição](https://www.youtube.com/watch?v=qJZoLQDr7Es&t=23s) | [Código](/algoritimo/pessoa.rb))
   * Professor ([Descrição](https://www.youtube.com/watch?v=qJZoLQDr7Es&t=23s) | [Código](/algoritimo/professor.rb))
