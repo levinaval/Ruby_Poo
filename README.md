@@ -33,7 +33,7 @@ para iniciantes
   * Aluno ([Descrição](https://youtu.be/6pKVQDZEzcY) | [Código](/algoritimo/aluno.rb))
   * Main ([Descrição](https://youtu.be/6pKVQDZEzcY) | [Código](/algoritimo/main.rb))
   * Pessoa ([Descrição](https://youtu.be/6pKVQDZEzcY) | [Código](/algoritimo/pessoa.rb))
-  * Professor ([Descrição](https://youtu.be/6pKVQDZEzcY) | [Código](/algoritimo/professor.rb))
+  * Professor ([Descrição](https://youtu.be/6pKVQDZEzcY) | [Código](/projeto_final/professor.rb))
   * Turma ([Descrição](https://youtu.be/6pKVQDZEzcY) | [Código](https://github.com/levinaval/ruby/blob/master/projeto_final/turma.rb)
 
   ## Reconhecimentos
