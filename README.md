@@ -28,7 +28,7 @@ para iniciantes
   * Professor ([Descrição](https://www.youtube.com/watch?v=qJZoLQDr7Es&t=23s) | [Código](/algoritimo/professor.rb))
   * Animal ([Descrição](https://www.youtube.com/watch?v=qJZoLQDr7Es&t=23s) | [Código](/algoritimo/animal.rb))
 * Polimorfismo
-  * calculdora ([Descrição](https://www.youtube.com/watch?v=qJZoLQDr7Es&t=23s) | [Código](/blob/master/polimorfismo/caculadora.rb))
+  * calculdora ([Descrição](https://www.youtube.com/watch?v=qJZoLQDr7Es&t=23s) | [Código](https://github.com/levinaval/ruby/blob/master/polimorfismo/calculadora.rb))
 * Projeto Final
   * Aluno ([Descrição](https://youtu.be/6pKVQDZEzcY) | [Código](/projeto_final/aluno.rb))
   * Main ([Descrição](https://youtu.be/6pKVQDZEzcY) | [Código](/projeto_final/main.rb))
