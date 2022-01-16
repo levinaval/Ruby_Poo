@@ -23,10 +23,10 @@ para iniciantes
 * Herança
   * Pessoa
   * Aluno ([Descrição](https://www.youtube.com/watch?v=qJZoLQDr7Es&t=23s) | [Código](/heranca/pessoa/aluno.rb))
-  * Diretor ([Descrição](https://www.youtube.com/watch?v=qJZoLQDr7Es&t=23s) | [Código](/algoritimo/diretor.rb))
-  * Pessoa ([Descrição](https://www.youtube.com/watch?v=qJZoLQDr7Es&t=23s) | [Código](/algoritimo/pessoa.rb))
-  * Professor ([Descrição](https://www.youtube.com/watch?v=qJZoLQDr7Es&t=23s) | [Código](/algoritimo/professor.rb))
-  * Animal ([Descrição](https://www.youtube.com/watch?v=qJZoLQDr7Es&t=23s) | [Código](/algoritimo/animal.rb))
+  * Diretor ([Descrição](https://www.youtube.com/watch?v=qJZoLQDr7Es&t=23s) | [Código](/heranca/pessoa/diretor.rb))
+  * Pessoa ([Descrição](https://www.youtube.com/watch?v=qJZoLQDr7Es&t=23s) | [Código](/heranca/pessoa/pessoa.rb))
+  * Professor ([Descrição](https://www.youtube.com/watch?v=qJZoLQDr7Es&t=23s) | [Código](/heranca/pessoa/professor.rb))
+  * Animal ([Descrição](https://www.youtube.com/watch?v=qJZoLQDr7Es&t=23s) | [Código](/heranca/pessoa/animal.rb))
 * Polimorfismo
   * calculdora ([Descrição](https://www.youtube.com/watch?v=qJZoLQDr7Es&t=23s) | [Código](https://github.com/levinaval/ruby/blob/master/polimorfismo/calculadora.rb))
 * Projeto Final
