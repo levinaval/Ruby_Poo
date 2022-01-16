@@ -13,11 +13,11 @@ para iniciantes
 ## Algoritmos
 
 * Classe
-  * Cachorro ([Descrição](https://youtu.be/p90UU7Pwh1U) | [Código](/algoritimo/cachorro.rb))
-  * Carro ([Descrição](https://youtu.be/p90UU7Pwh1U) | [Código](/algoritimo/carro.rb))
-  * Funcionario ([Descrição](https://youtu.be/p90UU7Pwh1U) | [Código](/algoritimo/funcionario.rb))
-  * Professor ([Descrição](https://youtu.be/p90UU7Pwh1U) | [Código](/algoritimo/professor.rb))
-  * Turma ([Descrição](https://youtu.be/p90UU7Pwh1U) | [Código](/algoritimo/turma.rb))
+  * Cachorro ([Descrição](https://youtu.be/p90UU7Pwh1U) | [Código](/classe/cachorro.rb))
+  * Carro ([Descrição](https://youtu.be/p90UU7Pwh1U) | [Código](/classe/carro.rb))
+  * Funcionario ([Descrição](https://youtu.be/p90UU7Pwh1U) | [Código](/classe/funcionario.rb))
+  * Professor ([Descrição](https://youtu.be/p90UU7Pwh1U) | [Código](/classe/professor.rb))
+  * Turma ([Descrição](https://youtu.be/p90UU7Pwh1U) | [Código](/classe/turma.rb))
 * Encapsulamento  
   * Pessoa ([Descrição](https://www.youtube.com/watch?v=NYDWIYTvu4w&t=1s) | [Código](/encapsulamento/pessoa.rb))
 * Herança
