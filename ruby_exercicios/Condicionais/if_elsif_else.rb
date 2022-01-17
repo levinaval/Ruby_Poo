@@ -1,4 +1,4 @@
-x = 10 
+x = 50
 
 if x == 11
   puts "X é igual a 10"
