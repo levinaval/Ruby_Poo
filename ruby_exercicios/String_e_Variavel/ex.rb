@@ -23,3 +23,5 @@ puts "Você tem #{idade} e esta estudando para se tornar um Dv"
 # A utilização do "CHOMP" é de abstrair o mometo em que se aperta o enter.
 
 # A utilização do "to_i" é pata transformar a informação do teclado em número inteiro.
+
+# A utilização do "to_" é pata transformar a informação do teclado em número inteiro.
