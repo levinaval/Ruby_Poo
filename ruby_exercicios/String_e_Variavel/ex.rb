@@ -24,4 +24,4 @@ puts "Você tem #{idade} e esta estudando para se tornar um Dv"
 
 # A utilização do "to_i" é pata transformar a informação do teclado em número inteiro.
 
-# A utilização do "to_" é pata transformar a informação do teclado em número inteiro.
+# A utilização do "to_f" é pata transformar a informação do teclado em número inteiro.
