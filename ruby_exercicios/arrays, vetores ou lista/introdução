@@ -7,3 +7,5 @@ lista - é uma variável que recebe um conjunto de valores.
 - Também podemos utilizar o << para incluir alguma informação na lista
 
 - Para podemos acessar posições específica na lista devemos utilizar "puts lista[2..4]
+
+- Para deletar "lista.delete(o intem a ser deletado)".
