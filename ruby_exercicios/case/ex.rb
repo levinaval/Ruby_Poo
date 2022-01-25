@@ -1,4 +1,4 @@
-mes = "abril"
+mes = gets.chomp
 
 case mes
 
