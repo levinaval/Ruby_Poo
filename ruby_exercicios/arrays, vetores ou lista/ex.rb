@@ -4,4 +4,4 @@
 lista = []
 
 lista.push("ha", "he", "hi")
-puts lista
+puts lista[2]
