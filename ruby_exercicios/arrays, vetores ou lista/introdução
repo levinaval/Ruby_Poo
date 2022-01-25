@@ -3,3 +3,5 @@ lista - é uma variável que recebe um conjunto de valores.
 a variável "lista" pode ter qualquer nome! 
 
 Utiliza-se o [2] para poder acessar a posição específica do elemento
+
+Também podemos utilizar o << para incluir alguma informação na lista
