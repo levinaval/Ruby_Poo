@@ -1,7 +1,9 @@
 lista - é uma variável que recebe um conjunto de valores.
 
-a variável "lista" pode ter qualquer nome! 
+- A variável "lista" pode ter qualquer nome! 
 
-Utiliza-se o [2] para poder acessar a posição específica do elemento
+- Utiliza-se o [2] para poder acessar a posição específica do elemento
 
-Também podemos utilizar o << para incluir alguma informação na lista
+- Também podemos utilizar o << para incluir alguma informação na lista
+
+- Para podemos acessar posições específica na lista devemos utilizar "puts lista[2..4]
