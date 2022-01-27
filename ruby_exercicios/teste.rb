@@ -10,10 +10,7 @@ elsif resposta == "não"
 
 else
   puts "Não foi isso que perguntei."
-  loop do
-    break #corrigir
-
-  end
+  
 end
 
 mes = gets.chomp
