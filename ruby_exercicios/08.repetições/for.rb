@@ -1,7 +1,7 @@
 nomes = ["Colher", "Martelo", "Prego", "Parafuso"]
 
-dict = {material:"Cimento", quantidade:5, local:"Deposito"}
+construçao = {material:"Cimento", quantidade:5, local:5.5}
 
-for dict in nomes do
+for construçao in nomes do
   puts nomes
 end
