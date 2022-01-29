@@ -2,8 +2,6 @@ count = 1
  
 loop do
   puts "Thor"
-  if count == 5
-    break
-  end
+   break if count == 5
   count += 1
 end
