@@ -1,3 +1,3 @@
 nomes = ["Colher", "Martelo", "Prego", "Parafuso"]
 
-dict = {material:"Cimento"}
+dict = {material:"Cimento", quantidade:5, local:"Deposito"}
