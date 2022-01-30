@@ -4,7 +4,7 @@ decisao = gets.chomp
 if decisao == "sim"
 puts "Escolha entre uma dessas operações"
 
-elsif 
+elsif decisao == "não"
   puts "Ok... Ate a proxina!"
 end
 
