@@ -1,2 +1,9 @@
-cesto = ["Laranja", "Maçã", "Peira", "uva"]
+nome = ["Pedro", "Marcos", "Pereira", "monica"]
 
+nomes_completos = nomes.map do |nome_completos|
+  nome_completos + " sobrenome"
+end
+
+puts nomes
+puts "----------"
+puts nomes_completos
