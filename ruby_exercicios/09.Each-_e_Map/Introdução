@@ -1,1 +1,3 @@
-Each - Faz a movimentação, percorre na lista ou hash sem altera a variavel
+Each - Faz a movimentação, percorre na lista ou hash sem altera a variavel.
+
+O escopo da variavel Each não sobrescreve uma outra variavel que venha a ter.
