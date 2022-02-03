@@ -1,3 +1,5 @@
 Each - Faz a movimentação, percorre na lista ou hash sem altera a variavel.
 
 O escopo da variavel Each não sobrescreve uma outra variavel que venha a ter.
+
+Map - permite cria uma nova lista sem altera a lista ja existente.
