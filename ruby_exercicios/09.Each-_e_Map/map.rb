@@ -8,4 +8,5 @@ puts nomes
 puts "----------"
 puts nomes_completos
 
-nome.map do |nome_completo|
+nome.map! do |nome_completo|
+  nome_completo + 
