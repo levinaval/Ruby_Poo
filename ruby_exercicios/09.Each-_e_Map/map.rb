@@ -9,4 +9,6 @@ puts "----------"
 puts nomes_completos
 
 nome.map! do |nome_completo|
-  nome_completo + 
+  nome_completo + " sobrenome"
+end
+
