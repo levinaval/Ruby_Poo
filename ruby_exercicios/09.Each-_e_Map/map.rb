@@ -12,3 +12,4 @@ nome.map! do |nome_completo|
   nome_completo + " sobrenome"
 end
 
+puts nomes
