@@ -7,3 +7,5 @@ end
 puts nomes
 puts "----------"
 puts nomes_completos
+
+nome
