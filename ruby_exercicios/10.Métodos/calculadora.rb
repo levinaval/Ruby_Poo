@@ -17,4 +17,4 @@ end
 puts soma 3, 9
 puts subt 8, 2
 puts mult 5, 5
-puts div 8, 2
+puts div 50, 2
