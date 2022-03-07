@@ -1,10 +1,10 @@
-puts "Vamos calcular? Sim ou Não?"
+puts "Vamos calcular? (s) para Sim ou (n) para Não?"
 decisao = gets.chomp
 
-if decisao == "sim"
+if decisao == "s"
 puts
 puts "Escolha entre uma dessas operações:"
-puts "Soma", "Subtração", "Multiplicação", "Divisão"
+puts "(s) = Soma", "(sub) = Subtração", "(m) = Multiplicação", "(d) = Divisão" 
 puts "---------------------"
 
 else
@@ -14,7 +14,7 @@ end
 
 escolha = gets.chomp
 
-if escolha == "soma"
+if escolha == "s"
   
   puts "Primeiro número"
   x = gets.chomp.to_i
@@ -26,7 +26,7 @@ if escolha == "soma"
 
 end
 
-if escolha == "subtraçao"
+if escolha == "sub"
   
   puts "Primeiro número"
   x = gets.chomp.to_i
@@ -38,7 +38,7 @@ if escolha == "subtraçao"
 
 end
 
-if escolha == "multiplicaçao"
+if escolha == "m"
   
   puts "Primeiro número"
   x = gets.chomp.to_i
@@ -50,7 +50,7 @@ if escolha == "multiplicaçao"
 
 end
 
-if escolha == "divisao"
+if escolha == "d"
   
   puts "Primeiro número"
   x = gets.chomp.to_i
