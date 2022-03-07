@@ -11,11 +11,8 @@ else
   puts "Ok. GOOD BYE!"
 end
 
-
-
 escolha = gets.chomp
 
-#soma = x + y
 #subtracao = x - y
 #multiplicacao = x * y
 #divisao = x.to_f / y.to_f
