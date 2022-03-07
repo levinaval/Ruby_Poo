@@ -3,7 +3,7 @@ decisao = gets.chomp
 
 if decisao == "sim"
 puts
-puts "Escolha entre uma dessas operações:so"
+puts "Escolha entre uma dessas operações:"
 puts "Soma", "Subtração", "Multiplicação", "Divisão"
 puts "---------------------"
 
@@ -13,10 +13,6 @@ else
 end
 
 escolha = gets.chomp
-
-
-#multiplicacao = x * y
-#divisao = x.to_f / y.to_f
 
 if escolha == "soma"
   
@@ -49,6 +45,18 @@ if escolha == "multiplicaçao"
   puts "O segundo"
   y = gets.chomp.to_i
   mult = x * y
+  puts "Resultado:"
+  puts mult
+
+end
+
+if escolha == "divisao"
+  
+  puts "Primeiro número"
+  x = gets.chomp.to_i
+  puts "O segundo"
+  y = gets.chomp.to_i
+  div = x.to_f / y.to_f
   puts "Resultado:"
   puts mult
 
