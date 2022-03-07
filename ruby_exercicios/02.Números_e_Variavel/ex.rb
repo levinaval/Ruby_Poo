@@ -3,13 +3,16 @@ decisao = gets.chomp
 
 if decisao == "sim"
 puts "Escolha entre uma dessas operações"
-
-elsif decisao == "não"
-  puts "Ok... Ate a proxina!"
-end
-
 puts "Soma", "Subtração", "Multiplicação", "Divisão"
 puts "---------------------"
+
+else
+  puts
+  puts "Ok. GOOD BYE!"
+end
+
+
+
 escolha = gets.chomp
 
 #soma = x + y
