@@ -58,6 +58,6 @@ if escolha == "divisao"
   y = gets.chomp.to_i
   div = x.to_f / y.to_f
   puts "Resultado:"
-  puts mult
+  puts div
 
 end
