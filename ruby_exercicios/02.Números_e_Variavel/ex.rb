@@ -12,17 +12,19 @@ puts "Soma", "Subtração", "Multiplicação", "Divisão"
 puts "---------------------"
 escolha = gets.chomp
 
-soma = x + y
-subtracao = x - y
-multiplicacao = x * y
-divisao = x.to_f / y.to_f
+#soma = x + y
+#subtracao = x - y
+#multiplicacao = x * y
+#divisao = x.to_f / y.to_f
 
 if escolha == "soma"
   
-  puts "Digite o primeiro número"
+  puts "Primeiro número"
   x = gets.chomp.to_i
-  puts "Digite o segundo número"
+  puts "O segundo"
   y = gets.chomp.to_i
+  soma = x + y
+  puts "Resultado:"
   puts soma
 
 end
