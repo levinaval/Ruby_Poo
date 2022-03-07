@@ -5,3 +5,5 @@ if frutas.eql?("uva")
 
   else
     puts "Prefiro as uvas!"
+
+end
