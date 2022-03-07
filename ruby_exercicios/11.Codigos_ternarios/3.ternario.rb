@@ -1,0 +1,1 @@
+puts frutas.eql?("uva") ? "Matéria prima para o vinho!"
