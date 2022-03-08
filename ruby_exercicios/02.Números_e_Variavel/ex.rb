@@ -7,9 +7,13 @@ puts "Escolha entre uma dessas operações:"
 puts "(s) = Soma", "(sub) = Subtração", "(m) = Multiplicação", "(d) = Divisão" 
 puts "---------------------"
 
-else
+elsif decisao == "n"
   puts
   puts "Ok. GOOD BYE!"
+
+else
+  puts
+  puts "Não foi isso que eu perguntei."
 end
 
 escolha = gets.chomp
