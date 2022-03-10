@@ -2,4 +2,7 @@ lista = []
 
 lista.push("ho", "hu", "ha", "he", "hi")
 
-puts lista.sort.first
+lista_organizada = lista.sort
+puts lista_organizada
+
+#puts lista.sort.first
