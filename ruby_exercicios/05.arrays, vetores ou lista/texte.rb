@@ -1,8 +1,7 @@
 lista = []
 
-lista.push("ho", "hu", "ha", "he", "hi")
+lista.push("moto", "motor", "teto", "carro", "carreta")
 
-lista_organizada = lista.sort
-puts lista_organizada
+lista << "fusca"
 
-#puts lista.sort.first
+puts lista
