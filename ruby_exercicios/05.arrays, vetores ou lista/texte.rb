@@ -1,7 +1,20 @@
+puts "Olá! vamos trabalhar com lista?"
+decisao = gets.chomp
+
+if decisao == "sim"
+  puts "Incira dois nomes."
+
+elsif == "não"
+  puts "Xau!!"
+
+else
+  "Não é isso que eu quero saber."
+end
+
 lista = []
 
-lista.push("moto", "motor", "teto", "carro", "carreta")
+lista.push()
 
-lista << "fusca"
+lista_organizada = lista.sort
 
-puts lista
+puts lista_organizada
