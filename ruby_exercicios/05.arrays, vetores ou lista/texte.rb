@@ -1,8 +1,8 @@
-lista = ["Sopa", "Cahorro Quente", "Amburgue", "Batata Frita", "Filer Parmagiana", "Pastel"]
+menu_de_lanche = ["Sopa", "Cahorro Quente", "Amburgue", "Batata Frita", "Filer Parmagiana", "Pastel"]
 
-lista.push()
+menu_de_lanche.push()
 
-lista_organizada = lista.sort
+menu_de_lanche_organizada = menu_de_lanche.sort
 
 puts "Olá! benvindo a lanchonete"
 puts "Quer fazer o seu pedido?"
@@ -11,9 +11,10 @@ decisao = gets.chomp
 if decisao == "sim"
   puts "Este é o menu."
   puts "---------------"
-  puts lista_organizada
+  puts menu_de_lanche_organizada
   puts "---------------"
   puts "Faça o seu pedido"
+  puts "-----------------"
 
 
 elsif decisao == "nao"
@@ -24,13 +25,28 @@ else
 
 end
 
-lista1 = []
+menu_de_lanche = []
 
-lista1 << gets.chomp
+menu_de_lanche << gets.chomp
+
+menu_de_bebidas = ["Suco", "Refrigerante", "Água de cocô", "Caldo de cana"]
+
+menu_de_bebidas.push()
+
+menu_de_bebidas_organisada = menu_de_bebidas.sort
 
 puts "-----------"
-puts "Algo para beber?"
+puts "Algo para beber, Sim ou Não?"
 
-puts "-----------"
-puts "Confirmando o seu pedidio"
-puts lista1
+decisao = gets.chomp
+
+if decisao == "sim"
+  puts "Menu de bebidas"
+  puts "---------------"
+  puts menu_de_bebidas
+  
+end
+
+#puts "-----------"
+#puts "Confirmando o seu pedidio"
+#puts menu_de_lanche
