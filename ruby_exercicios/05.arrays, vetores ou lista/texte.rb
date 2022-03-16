@@ -44,7 +44,12 @@ if decisao == "sim"
   puts "Menu de bebidas"
   puts "---------------"
   puts menu_de_bebidas
-  
+
+elsif decisao == "nao"
+  puts "Certo!"
+    
+else
+  puts "Não entende..."  
 end
 
 #puts "-----------"
