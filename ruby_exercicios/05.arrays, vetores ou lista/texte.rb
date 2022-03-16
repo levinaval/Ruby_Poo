@@ -29,6 +29,7 @@ menu_de_lanche = []
 
 menu_de_lanche << gets.chomp
 
+
 menu_de_bebidas = ["Suco", "Refrigerante", "Água de cocô", "Caldo de cana"]
 
 menu_de_bebidas.push()
@@ -44,7 +45,8 @@ if decisao == "sim"
   puts "Menu de bebidas"
   puts "---------------"
   puts menu_de_bebidas
-
+  puts "---------------
+  "
 elsif decisao == "nao"
   puts "Certo!"
     
@@ -52,6 +54,43 @@ else
   puts "Não entende..."  
 end
 
-#puts "-----------"
-#puts "Confirmando o seu pedidio"
-#puts menu_de_lanche
+menu_de_bebidas = []
+
+menu_de_bebidas << gets.chomp
+puts "--------------"
+puts "Ok..."
+puts
+puts "Deseja acrecentar mais algum pedido?"
+
+acrecentar = gets.chomp
+
+if acrecentar == "sim"
+puts "Acrecentando pedido!"
+
+elsif acrecentar == "nao"
+  puts "Finalisando o pedido..."
+else
+  puts "Opçâo não reconhecida!"
+end
+
+puts "Lanche ou Bebida?"
+escolha = gets.chomp
+
+if escolha == "lanche"
+  puts
+
+  elsif escolha == "bebida"
+    puts
+
+  else
+    puts "Opção não reconhecida!"
+
+  end
+
+  
+puts "-----------"
+puts "Confirmando o seu pedidio"
+puts "------------------"
+puts menu_de_lanche
+puts "-----------------"
+puts menu_de_bebidas
