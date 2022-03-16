@@ -5,7 +5,7 @@ resposta = gets.chomp
 if resposta == "sim"
   puts "Qual o mês em que voçê nasceu?"
 
-elsif resposta == "não"
+elsif resposta == "nao"
   puts "Paramos por aque!!"
 
 else
