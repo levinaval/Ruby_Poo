@@ -13,7 +13,7 @@ menu_de_lanche_organizada = menu_de_lanche.sort
 if decisao == "sim"
   puts
   puts "Este é o menu."
-  putssopa
+  puts 
   puts "---------------"
   puts menu_de_lanche_organizada
   puts "-----------------"
@@ -51,6 +51,7 @@ if decisao == "sim"
   puts "Menu de bebidas"
   puts "---------------"
   puts menu_de_bebidas
+  puts
   puts "---------------"
 
 elsif decisao == "nao"
@@ -102,16 +103,16 @@ end
 
 escolha = gets.chomp
 
-if escolha == "lanche"
-  puts "Acrecente o que dezeja."
+#if escolha == "lanche"
+#  puts "Acrecente o que dezeja."
 
-  elsif escolha == "bebida"
-  puts "Acrecente o que dezeja."
+#  elsif escolha == "bebida"
+#  puts "Acrecente o que dezeja."
 
  # else
   #puts "Opção não reconhecida!"
 
-end
+#end
 
 menu_pedido_acrecentado = [("Pedido incluido")]
 menu_pedido_acrecentado << gets.chomp
