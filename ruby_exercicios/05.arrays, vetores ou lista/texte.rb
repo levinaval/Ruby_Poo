@@ -101,7 +101,7 @@ if acrecentar == "sim"
 
 end
 
-escolha = gets.chomp
+menu_pedido_acrecentado = gets.chomp
 
 #if escolha == "lanche"
 #  puts "Acrecente o que dezeja."
@@ -114,8 +114,13 @@ escolha = gets.chomp
 
 #end
 
-menu_pedido_acrecentado = [("Pedido incluido")]
-menu_pedido_acrecentado << gets.chomp
+pedido_acrecentado = []
+
+#pedido_acrecentado.push()
+
+#menu_pedido_acrecentado = pedido_acrecentado.sort
+
+pedido_acrecentado << gets.chomp
 
   
 
@@ -130,5 +135,7 @@ menu_pedido_acrecentado << gets.chomp
   puts menu_de_bebidas
   puts
   puts "-----------------"
+  puts
+  puts "Pedido acrecentado:"
   puts menu_pedido_acrecentado
   
