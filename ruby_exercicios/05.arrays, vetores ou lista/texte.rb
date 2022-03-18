@@ -104,7 +104,7 @@ end
  
 menu_pedido_acrescentado = gets.chomp
 
-pedido_acrecentado = []
+pedido_acrescentado = []
  
 pedido_acrescentado << gets.chomp
  
