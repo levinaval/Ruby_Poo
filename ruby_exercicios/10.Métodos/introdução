@@ -1,3 +1,5 @@
+Métodos são uma forma de organizar instruções em um programa, permitindo que trechos de códigos sejam reutilizados.
+
 def soma (x, y, z)
 x, y, z
 end

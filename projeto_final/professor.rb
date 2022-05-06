@@ -5,7 +5,7 @@ class Professor < Pessoa
 
     def initialize(nome, idade, disciplina)
         super(nome)
-        @
+        @idade = idade
         @disciplina = disciplina 
                
     end
