@@ -1,6 +1,5 @@
 puts "Hello world!!"
 
-
 print "Me diga seu nome:"
 nome = gets.chomp
 
