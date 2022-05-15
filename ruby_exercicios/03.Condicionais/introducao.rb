@@ -18,3 +18,7 @@
 puts false && true
 puts false || true
 puts !false && true
+
+if 
+Expressão que verifiva se uma condição é verdadeora(true), e a partir deste resultado determina se as instruções dentro de seu corpo serão ou não executadas.
+  
