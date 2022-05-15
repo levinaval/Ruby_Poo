@@ -25,3 +25,5 @@ if
 else
   Informa o que fazer quando a verificaçãode uma condição IF for falada.
 
+elsif 
+  Utilisado quando há a necessidade de verificar mais de uma condição em um if.
