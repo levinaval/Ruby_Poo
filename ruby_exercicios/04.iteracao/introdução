@@ -13,4 +13,5 @@ while
 times
   Executa uma repetição por um determinado número de vezes.
 
-do/while Ele cria um laço de repetição que só é parado quando uma instrução break for verificada.
+do/while - loop
+  Ele cria um laço de repetição que só é parado quando uma instrução break for verificada.
