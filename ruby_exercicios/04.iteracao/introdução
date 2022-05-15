@@ -3,3 +3,14 @@ iteração
   A seguir, algumas instruções de iteração.
 
   for, while, times, do/while
+
+for
+   Usado para percorrer uma coleção de elementos.
+
+while
+  Instrução que repete um bloco de códigoenquanto sua condição é verificada.
+
+times
+  Executa uma repetição por um determinado número de vezes.
+
+do/while Ele cria um laço de repetição que só é parado quando uma instrução break for verificada.
