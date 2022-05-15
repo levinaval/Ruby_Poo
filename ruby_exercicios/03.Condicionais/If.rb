@@ -1,23 +1,14 @@
-#puts "Qual é a sua profição?"
-#
-#nome = gets.chomp
-#
-#if nome == "motorista"
-#  puts "profição em extinção!"
-#  
-#elsif nome == "progamador"
-#  puts "Grande profição em crescimento!!"
-#  
-#else
-#  puts "Ainda tem algun futuro! kkk"
-#  
-#end
+puts "Qual é a sua profição?"
 
-carro = "versa"
-marca = "deixa para la"
+nome = gets.chomp
 
-if carro != "versa"
-  marca = "nissa"
+if nome == "motorista"
+  puts "profição em extinção!"
+  
+elsif nome == "progamador"
+  puts "Grande profição em crescimento!!"
+  
+else
+  puts "Ainda tem algun futuro! kkk"
+  
 end
-
-puts "qual é seu carro? #{marca}!"
