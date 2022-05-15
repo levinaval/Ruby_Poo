@@ -1,9 +1,17 @@
-For -
- A finalidade desta repetição é inprimir os elementos que estão na lista.
- pode tambem ser utilizada em uma tabuada, em um progama de blog.
+Repetição ou Iteração
+  Tipo de estrutura de controle que gerencia quantas vezes um trecho de código será executado.
+  A seguir, algumas instruções de iteração.
 
-While - Preciza de uma condição de parada e o "nome.size faz a contagem dos elementos.
+  for, while, times, do/while
 
-Times - Serve para repetir algum informação.
+for
+   Usado para percorrer uma coleção de elementos.
 
-Loop - tem a mesma função do Times
+while
+  Instrução que repete um bloco de códigoenquanto sua condição é verificada.
+
+times
+  Executa uma repetição por um determinado número de vezes.
+
+do/while - loop
+  Ele cria um laço de repetição que só é parado quando uma instrução break for verificada.

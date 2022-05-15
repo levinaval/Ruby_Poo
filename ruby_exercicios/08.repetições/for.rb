@@ -1,4 +1,4 @@
-nomes = ["Colher", "Martelo", "Prego", "Parafuso"]
+nomes = ["Colher", "Martelo", "Prego", "Parafuso", "----"]
 
 construcao = {material:"Cimento", quantidade:5, local:5.5}
 
