@@ -1,0 +1,5 @@
+iteração
+  Tipo de estrutura de controle que gerencia quantas vezes um trecho de código será executado.
+  A seguir, algumas instruções de iteração.
+
+  for, while, times, do/while
