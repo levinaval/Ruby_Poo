@@ -15,7 +15,7 @@ def todos_os_contatos
     puts"--------------------------"
 end
 
-def adicionar_contatos
+ def adicionar_contatos
   print "Nome:"
   nome = gets.chomp
   print "Telefone:"
@@ -101,5 +101,3 @@ loop do
     puts "Opção não valida!!"
   end
 end
-
-
