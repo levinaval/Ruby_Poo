@@ -1,3 +1,5 @@
+#Código para incluir algum item em uma variável.
+
 lista = []
 
 lista.push("Feijão", "Farinha", "Macarrão")
