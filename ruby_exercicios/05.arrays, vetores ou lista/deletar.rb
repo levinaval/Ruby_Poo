@@ -1,3 +1,5 @@
+#código para deletar algum item em uma variável.
+
 lista = []
 
 lista.push("Preto", "Amarelo", "Azul")

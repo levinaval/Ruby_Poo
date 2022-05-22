@@ -11,3 +11,8 @@ lista = []
 
 lista.push("ha", "he", "hi", "kk", "rr")
 puts lista[-3..-1]
+
+# obs: Para chamar só o primeiro ou o último.
+puts lista.sort.first
+        or 
+puts lista.sort.last
