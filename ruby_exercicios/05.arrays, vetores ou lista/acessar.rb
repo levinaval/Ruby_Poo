@@ -1,4 +1,4 @@
-#código para acessar algum item em uma variável
+#código para acessar algum item em uma variável.
 
 lista = []
 
