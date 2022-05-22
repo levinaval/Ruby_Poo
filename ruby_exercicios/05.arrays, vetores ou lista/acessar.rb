@@ -2,5 +2,5 @@
 
 lista = []
 
-lista.push("ha", "he", "hi")
-puts lista[0, 2] 
+lista.push("ha", "he", "hi", "kk", "rr")
+print lista[0..4] 
