@@ -1,10 +1,10 @@
 #Calcule a soma dos números de 1 a 10, atribua a variável x e mostre seu valor.
 
-c = 1 
+x = 1 
 
 10.times do
 
-  puts c
-  c += 1
-  
+  puts x
+  x += 1
+
 end
