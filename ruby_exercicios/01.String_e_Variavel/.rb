@@ -1,7 +1,6 @@
-#concatenação
+#Esta concatenação não é pocivel pois o 33 é um número inteiro.
 
-s = "Levi"
+s = 'foo' 
+s  <<  33  # => "foo!"
 
-s << "Silva"
-
-puts s 
+puts s
