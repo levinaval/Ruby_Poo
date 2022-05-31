@@ -1,7 +1,7 @@
 nome = ["Pedro", "Marcos", "Pereira", "monica"]
 
 nome_completos = nome.map do |nome_completos|
-  nome_completos + " sobrenome"
+  nome_completos + " de Alcantara"
 end
 
 puts nome
