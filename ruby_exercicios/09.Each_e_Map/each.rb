@@ -1,11 +1,7 @@
-cesto = ["Laranja", "Maçã", "Peira", "uva"]
+rede = ["De nylon,", "De algodon,", "Estampada"]
 
-dict = {produtor:"roberto", idade:56, peso:85.60}
+rede.each do |rede|
 
-#cesto.each do |cesto|
-# puts cesto
-#end
+  puts rede + " São redes muito boas!"
 
-dict.each do |chave, valor|
-  puts "#{chave}: #{valor}"
 end
