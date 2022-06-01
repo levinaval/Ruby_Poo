@@ -6,7 +6,7 @@ new_array = array.map do |a|
 
 end
 
-puts "/n Resultado dos calculos!"
+puts "Resultado dos calculos!"
 puts "Primeiro #{array}"
 puts
 puts "Segundo #{new_array}"
