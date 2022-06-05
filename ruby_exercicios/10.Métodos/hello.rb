@@ -1,3 +1,5 @@
+# Método que imprime o nome.
+
 def hello name
 
   puts "Olá #{name}"
