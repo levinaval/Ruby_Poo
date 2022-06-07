@@ -7,15 +7,16 @@ menu_de_lanche_organizada = menu_de_lanche.sort
  puts
  puts "Gostaria de fazer o seu pedido?"
  puts "Sim ou Não"
- puts"_________________________________________"
+ puts
  
  decisao = gets.chomp
+ puts"_________________________________________"
  
 if decisao == "sim"
  puts "Este é o menu."
  puts 
  puts menu_de_lanche_organizada
- puts "________________________________________"
+ puts 
  
  
  elsif decisao == "nao"
@@ -29,6 +30,8 @@ end
 menu_de_lanche = []
  
 menu_de_lanche << gets.chomp
+puts
+puts "________________________________________"
  
 menu_de_bebidas = ["Suco", "Refrigerante", "Água de cocô", "Caldo de cana"]
  
@@ -38,8 +41,10 @@ menu_de_bebidas_organisada = menu_de_bebidas.sort
   
  puts "Algo para beber?"
  puts "Sim ou Não" 
+ puts 
 decisao = gets.chomp
- 
+ puts "________________________________________"
+
 if decisao == "sim"
  puts
  puts "Menu de bebidas"
@@ -57,6 +62,7 @@ end
 menu_de_bebidas = []
  
 menu_de_bebidas << gets.chomp
+puts "________________________________________"
  
  puts "Ok..."
  puts
@@ -69,6 +75,7 @@ menu_de_bebidas << gets.chomp
  puts menu_de_bebidas
  puts
  puts "Deseja acrescentar ou retirar algum pedido?"
+ puts "________________________________________"
  puts "Sim acrescentar, Sim retira, Não."
  puts
  
@@ -100,13 +107,23 @@ elsif acrescentar == "nao"
 end
 
 retira = gets.chomp
+puts "________________________________________"
 
 if retira == "lanche"
 
-  puts menu_de_lanche_organizada
+  puts menu_de_lanche.sort
   puts
   puts "o que deseja retirar?"
 
+else
+  puts "Comando não entendido"
+
+end
+
+menu_de_lanche.push()
+menu_de_lanche.delete = gets.chomp
+
+puts lista
   
  puts "PEDIDO FINALIZADO!"
  puts
