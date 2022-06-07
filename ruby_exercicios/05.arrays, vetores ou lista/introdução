@@ -1,11 +1,1 @@
-lista - é uma variável que recebe um conjunto de valores.
-
-- A variável "lista" pode ter qualquer nome! 
-
-- Utiliza-se o [2] para poder acessar a posição específica do elemento
-
-- Também podemos utilizar o << para incluir alguma informação na lista
-
-- Para podemos acessar posições específica na lista devemos utilizar "puts lista[2..4]
-
-- Para deletar "lista.delete(o intem a ser deletado)".
+# Um Array é uma coleção ordenada de objetos indexados(listado, ordenado, organizado). por inteiro, chamados de elementos. Qualque objeto pode ser um elemento Array.
