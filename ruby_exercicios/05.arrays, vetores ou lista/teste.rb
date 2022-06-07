@@ -7,7 +7,7 @@ menu_de_lanche_organizada = menu_de_lanche.sort
  puts
  puts "Gostaria de fazer o seu pedido?"
  puts "Sim ou Não"
- puts
+ puts"_________________________________________"
  
  decisao = gets.chomp
  
@@ -15,7 +15,7 @@ if decisao == "sim"
  puts "Este é o menu."
  puts 
  puts menu_de_lanche_organizada
- puts 
+ puts "________________________________________"
  
  
  elsif decisao == "nao"
@@ -68,13 +68,13 @@ menu_de_bebidas << gets.chomp
  puts "Bebida:"
  puts menu_de_bebidas
  puts
- puts "Deseja acrescentar mais algum pedido?"
- puts "Sim ou Não"
+ puts "Deseja acrescentar ou retirar algum pedido?"
+ puts "Sim acrescentar, Sim retira, Não."
  puts
  
 acrescentar = gets.chomp
  
-if acrescentar == "sim"
+if acrescentar == "sim acrescentar"
  puts
  puts "Acrescentando pedido!"
  puts
@@ -83,17 +83,30 @@ if acrescentar == "sim"
  
  menu_pedido_acrescentado << gets.chomp
  
- elsif acrescentar == "nao"
+ elsif acrescentar == "sim retira"
  puts
- puts "Finalizando o pedido..."
- puts
- puts "Aperte ENTER para conferir seu pedido."
- puts
+ puts "O que deseja retirar..."
+ puts "lanche ou bebidas?"
  
+elsif acrescentar == "nao"
+  puts
+  puts "Finalizando o pedido..."
+  puts
+  puts "Aperte ENTER para conferir seu pedido."
+  puts
+
  else
  puts "Opção não reconhecida!"
- 
 end
+
+retira = gets.chomp
+
+if retira == "lanche"
+
+  puts menu_de_lanche_organizada
+  puts
+  puts "o que deseja retirar?"
+
   
  puts "PEDIDO FINALIZADO!"
  puts
