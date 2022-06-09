@@ -1,7 +1,9 @@
-eranca = []
+#código para incerri uma string em um array
 
-eranca.push("filho novo", "filho do meio", "filho velho")
+lista = []
 
-eranca_organizada = eranca.sort
+lista.push("la", "le", "li")
 
-puts eranca_organizada
+lista << gets.chomp
+
+puts lista

@@ -7,3 +7,13 @@ lista << "Arroz"
 
 lista.insert(2, "cuscuz")
 puts lista[0..4]
+
+#OR 
+
+#lista = []
+#
+#lista.push("la", "le", "li")
+#
+#lista << gets.chomp
+#
+#puts lista

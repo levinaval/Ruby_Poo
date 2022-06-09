@@ -3,6 +3,8 @@
 lista = []
 
 lista.push("Preto", "Amarelo", "Azul")
-lista.delete("Amarelo")
+lista.delete(gets.chomp)
+
+puts "___"
 
 puts lista

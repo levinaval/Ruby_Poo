@@ -14,5 +14,5 @@ puts lista[-3..-1]
 
 # obs: Para chamar só o primeiro ou o último.
 puts lista.sort.first
-        or 
+        #or 
 puts lista.sort.last
