@@ -1,4 +1,4 @@
-#Escreva um programa que leia um número e mostre se ele é múltiplo de 7.
+##Escreva um programa que leia um número e mostre se ele é múltiplo de 7.
 
 #puts "Digite um número"
 #
@@ -34,4 +34,4 @@ def decisao(resoltado)
   
 end
 
-decisao(resoltado)
+decisao(resoltado)"""
