@@ -2,7 +2,7 @@
 
 pilares do Poo
 
-Abstração - Ação de Abstrair ima entidade do mundo real e transformá-la em uma classe.
+Abstração - Ação de Abstrair uma entidade do mundo real e transformá-la em uma classe.
 
 Encapsulamento - Ato de dividir um progrma em viversas parte tornando-o flexível, fácil de modificar e incluir novas funcionalidades.
 
