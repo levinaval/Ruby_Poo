@@ -1,0 +1,11 @@
+É um paradigma de progrmação criado para lidar com softwares prandes e complexos. 
+
+pilares do Poo
+
+Abstração - Ação de Abstrair ima entidade do mundo real e transformá-la em uma classe.
+
+Encapsulamento - Ato de dividir um progrma em viversas parte tornando-o flexível, fácil de modificar e incluir novas funcionalidades.
+
+Herança - Habilidade de criar uma classe com características de outra existente. A herança promove o reuso e reaproveitamento de código.
+
+Poliformismo - Capacidade de utilizar um método de diferentes formas para diferentes Objetos.
