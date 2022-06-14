@@ -4,7 +4,12 @@ class Instrumento
   end
 end
 
+# A palavra reservada "super" faz com que o comando das duas classes funcionem de forma conjunta, sem sobrescrever uma a outra. 
 class Teclado < Instrumento
+  def escrever
+    puts "estou aqui!"
+    super
+  end
 end
 
 class Caneta < Instrumento
