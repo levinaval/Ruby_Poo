@@ -21,11 +21,11 @@ class Carro
 end
 
 class Funcionario
-  def calcular_comicao(x, y)
-    x + y
-    puts "Esta é a minha #{soma}!"
+  def calcular_comicao
+    resultado = (500 + 200) / 100 
+    puts "valor da comissão #{resultado}"
   end
-puts soma(14, 20)
+  
 end
 
 cachorro = Cachorro.new
