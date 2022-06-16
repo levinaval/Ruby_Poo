@@ -1,25 +1,17 @@
-#def calcular(a, b)
-#
-#  (a + b) / 100
-#  
-#end
-#
-#
-#puts calcular(500, 200)
+def calcular_comicao(venda, gratificacao)
 
-class Script
-  def calcular_comicao
-    resultado = (500 + 200) / 100 
-    puts "valor da comissão #{resultado}"
-    
-  end
-
-  #print "Enter a number: "
-  #number = gets
-
-  #random(number)
+ comissao = (venda * gratificacao) / 100
+ diferenca = venda - comissao
+ 
+  # exibe o resultado
+  puts "O valor que fica para o estabelecimento: " +
+   diferenca.to_s
+ 
+  puts "A comição para o vendedor: " +
+   comissao.to_s
 end
 
-script = Script.new
+#venda = 2000.0
+#gratificacao = 8
 
-script.calcular_comicao#.random
+calcular_comicao(2000.0, 8)

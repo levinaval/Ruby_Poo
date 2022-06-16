@@ -5,9 +5,6 @@
 # Na classe Funcionário, criar a função "calcular comissão" que vai receber dois argumentos e somar a comissão do funcionário;
 #imprimindo o valor da comissão.
 
-# Criar uma classe Cachorro que herda de Animal. Na classe animal haverá uma função "comunicar" que o cachorro irá
-#herdar. Com os conceitos de polimorfismo, você irá sobrescrever a função "comunicar", na classe Cachorro.
-
 class Cachorro
   def comunicar
     puts "Au Au Au"
@@ -21,11 +18,12 @@ class Carro
 end
 
 class Funcionario
-  def calcular_comicao
-    resultado = (500 + 200) / 100 
-    puts "valor da comissão #{resultado}"
+  def calcular_comicao(venda, gratificacao)
+    comissao = (venda * gratificacao) / 100
+    diferenca = venda - comissao
+    puts "A comição para o vendedor: " +
+    comissao.to_s
   end
-  
 end
 
 cachorro = Cachorro.new
@@ -34,4 +32,4 @@ funcionario = Funcionario.new
 
 cachorro.comunicar
 carro.ligar_carro
-funcionario.calcular_comicao
+funcionario.calcular_comicao(2000.0, 8)
