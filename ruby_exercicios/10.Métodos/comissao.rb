@@ -10,8 +10,5 @@ def calcular_comicao(venda, gratificacao)
    puts "A comição para o vendedor: " +
     comissao.to_s
  end
- 
- #venda = 2000.0
- #gratificacao = 8
- 
+
  calcular_comicao(2000.0, 8)
