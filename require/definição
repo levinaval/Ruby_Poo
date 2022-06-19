@@ -1,0 +1,3 @@
+"require" - Serve para carregar arquivos de uma gem e assim poder escrever códigos com fumcionaliddades deta biblioteca.
+
+ Com ele também é possível carregar arquivos ruby que foram escritos por você. 
