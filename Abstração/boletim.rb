@@ -2,14 +2,8 @@
 #Entrada: 6.8, 9.5, 3.9
 #Saída: Aluno: Fulano, Média: 6,73 - Aprovado
 
-class School
 
-  puts "insira o nome do aluno."
-  aluno = gets.chomp
-  puts "notas."
-  nota1 = gets.chomp.to_f
-  nota2 = gets.chomp.to_f
-  nota3 = gets.chomp.to_f
+class School
 
   def initialize(aluno, nota1, nota2, nota3)
     @aluno = aluno
@@ -18,20 +12,27 @@ class School
     @nota3 = nota3
   end
 
-  def boletim(aluno, nota1, nota2, nota3)
-   soma = nota1 + nota2 + nota3 
+  def boletim#(aluno, nota1, nota2, nota3)
+   soma = @nota1 + @nota2 + @nota3 
    media = soma / 3
    if media >= 6 && media <= 10
-     puts "aluno: #{aluno} media: #{media} - Aprovado"
+     puts "aluno:#{@aluno} media: #{media} - Aprovado"
     elsif media < 6 && media >= 3 
-     puts "aluno: #{aluno} media: #{media} - Recuperação!"
+     puts "aluno:#{@aluno} media: #{media} - Recuperação!"
     elsif media < 3 && media >= 0
-     puts"aluno: #{aluno} media: #{media} - Reprovado"
+     puts"aluno:#{@aluno} media: #{media} - Reprovado"
     else
       puts "Alguma nota está inválida"
    end
   end
 end
+
+puts "insira o nome do aluno."
+aluno = gets.chomp
+puts "notas."
+nota1 = gets.chomp.to_f
+nota2 = gets.chomp.to_f
+nota3 = gets.chomp.to_f
 
 school = School.new(aluno, nota1, nota2, nota3)
 school.boletim
