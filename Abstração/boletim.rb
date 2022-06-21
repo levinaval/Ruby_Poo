@@ -12,7 +12,7 @@ class School
     @nota3 = nota3
   end
 
-  def boletim#(aluno, nota1, nota2, nota3)
+  def boletim
    soma = @nota1 + @nota2 + @nota3 
    media = soma / 3
    if media >= 6 && media <= 10
