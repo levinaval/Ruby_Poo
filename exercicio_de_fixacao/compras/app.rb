@@ -4,7 +4,14 @@
 # Depois, inicie uma instância da "classe Mercado" passando como atributo a instância da "classe Produto" e para finalizar execute o método compra.
 
 class Produto
-  def initialize(Nome, preco)
+  def initialize(nome, preco)
+    @nome = nome
+    @preco = preco
+  end
+end
+
+class Mercado < Produto
+  def compra
     
   end
 end
