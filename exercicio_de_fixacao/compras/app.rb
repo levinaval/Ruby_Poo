@@ -10,7 +10,7 @@ class Produto
   end
 end
 
-class Mercado < Produto
+class Mercado  
   def compra
     
   end
