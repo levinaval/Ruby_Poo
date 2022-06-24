@@ -5,11 +5,7 @@ class Produto
     @nome = nome
     @preco = preco
   end
-  
-  #def item
-  #  puts "Este é o produto: (#{@nome}) valor:(#{@preco})"
-  #end
-  
 end
 
 produto = Produto.new("Leite", 5.76)
+produto

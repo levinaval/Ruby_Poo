@@ -2,21 +2,18 @@
  
 # Dentro da classe, crie um método chamado "comprar" que imprime a seguinte frase: "você comprou o produto #{@produto.nome} no valor de #{@produto.preco}"
 
-require_relative "produto"
+##require_relative "produto"
 
-class Mercado 
-  def nome
+class Mercado < Produto
+  def initialize(nome, produto)
     @nome = nome
-  end
-
-  def produto
     @produto = produto
   end
 
   def comprar
-    puts "Você comprou o produto #{@produto.nome} no valor de #{@produto.preco}"
+    puts "Você comprou o produto #{@produto} no valor de #{@produto}"
   end
 end
 
-mercado = Mercado.new
+mercado = Mercado.new("Leite", 5.76)
 mercado.comprar
