@@ -4,16 +4,17 @@
 
 ##require_relative "produto"
 
-class Mercado < Produto
-  def initialize(nome, produto)
-    @nome = nome
-    @produto = produto
-  end
+class Mercado
+  attr_accessor :nome, :produto
 
-  def comprar
-    puts "Você comprou o produto #{@produto} no valor de #{@produto}"
+  def compar
+    puts "você comprou o produto #{@produto.nome} no valor de #{@produto.preco}"
   end
 end
 
-mercado = Mercado.new("Leite", 5.76)
-mercado.comprar
+mercado = Mercado.new
+mercado.nome = "Leite"
+puts mercado.nome
+
+mercado.produto = 5.45
+puts mercado.produto

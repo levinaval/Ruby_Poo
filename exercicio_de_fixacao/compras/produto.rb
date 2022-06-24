@@ -7,5 +7,3 @@ class Produto
   end
 end
 
-produto = Produto.new("Leite", 5.76)
-produto
