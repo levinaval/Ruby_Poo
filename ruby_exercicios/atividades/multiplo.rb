@@ -1,22 +1,22 @@
 ##Escreva um programa que leia um número e mostre se ele é múltiplo de 7.
 
 puts "Dígite um número."
-numero = gets.chomp.to_i
+number = gets.chomp.to_i
 
-resoltado = numero * 7
+resolt = number * 7
 
-def decisao(resoltado)
+def decision(resolt)
 
-  if resoltado <= 0
+  if resolt <= 0
 
-    puts "Resultado é #{resoltado} Este não é múltiplo de 7."
+    puts "Resultado é #{resolt} Este não é múltiplo de 7."
 
   else
 
-    puts "Resultado é #{resoltado} Este é múltiplo de 7."
+    puts "Resultado é #{resolt} Este é múltiplo de 7."
 
   end
   
 end
 
-puts decisao(resoltado)
+puts decision(resolt)
