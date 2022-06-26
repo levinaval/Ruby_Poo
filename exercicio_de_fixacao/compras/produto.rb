@@ -7,3 +7,9 @@ class Produto
   end
 end
 
+produto = Produto.new
+produto.nome = "Feijão"
+puts produto.nome
+
+produto.preco = 7.00
+puts produto.preco

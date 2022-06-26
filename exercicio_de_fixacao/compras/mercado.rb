@@ -16,5 +16,5 @@ mercado = Mercado.new
 mercado.nome = "Leite"
 puts mercado.nome
 
-mercado.produto = 5.45
+mercado.produto = 5.45 
 puts mercado.produto
