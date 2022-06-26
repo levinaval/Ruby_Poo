@@ -1,35 +1,14 @@
-#puts "Dígite um número."
-#
-#numero = gets.chomp.to_i
-#
-#if numero == 10
-#
-#  puts "Este número que você dígitou é igual a 10!"
-#
-#else
-#  
-#  puts "Este número não é igual a 10!"
-#
-#end 
-
-# or
-
+# Escreva um programa que compare se um número é igual a 10.
 puts "Dígite um número."
 
-numero = gets.chomp.to_i
+number = gets.chomp.to_i
 
-def comparacao(numero)
-
-  if numero == 10
-
-    puts "Este número que você dígitou é igual a 10!"
-  
+def comparation(number)
+  if number == 10
+   puts "Este número que você dígitou é igual a 10!"
   else
-    
     puts "Este número não é igual a 10!"
-  
   end
-
 end
 
-comparacao(numero)
+comparation(number)
