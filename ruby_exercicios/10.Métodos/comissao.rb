@@ -1,14 +1,14 @@
-def calcular_comicao(venda, gratificacao)
+def calculate_commission(sale, gratification)
 
-  comissao = (venda * gratificacao) / 100
-  diferenca = venda - comissao
+  commission = (sale * gratification) / 100
+  difference = sale - commission
   
    # exibe o resultado
    puts "O valor que fica para o estabelecimento: " +
-    diferenca.to_s
+    difference.to_s
   
    puts "A comição para o vendedor: " +
-    comissao.to_s
+    commission.to_s
  end
 
- calcular_comicao(2000.0, 8)
+ calculate_commission(2000.0, 8)
