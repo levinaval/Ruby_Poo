@@ -1,6 +1,6 @@
-frutas = "uva"
+fruit = "uva"
 
-if frutas.eql?("uva")
+if fruit.eql?("uva")
   puts "Matéria prima para o vinho."
 
   else
