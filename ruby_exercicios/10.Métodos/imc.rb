@@ -1,18 +1,18 @@
 print "Digite seu peso:"
-meu_peso = gets.chomp.to_f
+my_weight = gets.chomp.to_f
 
 print "Digite sua altura"
-minha_altura = gets.chomp
+my_height = gets.chomp
 
-def imc(meu_peso, minha_altura)
+def imc(my_weight, my_height)
 
-  minha_altura.gsub! ",", "."
-  minha_altura = minha_altura.to_f
+  my_height.gsub! ",", "."
+  my_height = my_height.to_f
 
-  imc = meu_peso / (minha_altura * minha_altura)
+  imc = my_weight / (my_height * my_height)
 
   puts "O seu IMC é #{imc}"
   
 end
 
-imc(meu_peso, minha_altura)
+imc(my_weight, my_height)
