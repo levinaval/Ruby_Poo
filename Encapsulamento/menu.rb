@@ -126,8 +126,8 @@ end
 
 puts inclusão1(decisao4, menu_de_lanche, menu_de_bebidas)
 
-novo_pedido = []
-novo_pedido = gets.chomp
+novo_pedido1 = []
+novo_pedido1 = gets.chomp
 
 
 puts "Algo mais?"
@@ -146,11 +146,22 @@ puts inclusão2(decisao6, menu_de_lanche, menu_de_bebidas)
 novo_pedido2 = []
 novo_pedido2 = gets.chomp
 
-class inclusaoDePedido
-  def initialize(inclusão1, inclusão2)
-    
+class InclusaoDePedido
+  def initialize(novo_pedido1, novo_pedido2)
+    @novo_pedido1 = novo_pedido1
+    @novo_pedido2 = novo_pedido2
+  end
+
+  def todos_os_pedidos
+    puts "Pedido realizado:"
+    puts "#{@pedido_do_lanche}"
+    puts "#{@pedido_do_bebida}"
   end
 end
+
+inclusao = InclusaoDePedido.new(novo_pedido1, novo_pedido2)
+#puts inclusao.todos_os_pedidos
+#pedido.mostrar_carrinho_de_pedidos
 
 class PedidoFinalizado
 def initialize()
