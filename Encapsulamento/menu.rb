@@ -164,7 +164,17 @@ inclusao = InclusaoDePedido.new(novo_pedido1, novo_pedido2)
 #pedido.mostrar_carrinho_de_pedidos
 
 class PedidoFinalizado
-def initialize()
-  
+  def initialize(pedido, inclusao)
+    @pedido = pedido
+    @inclusao = inclusao
+  end
+
+  def mostrar_carrinho_de_pedidos2
+    puts "Pedido finalizado!"
+    puts "#{@pedido}"
+    puts "#{@inclusao}"
+  end
 end
-end
+
+carrinho = PedidoFinalizado.new(pedido, inclusao)
+puts carrinho.mostrar_carrinho_de_pedidos2
