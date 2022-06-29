@@ -1,4 +1,4 @@
- #class Estudos
+ #class Studies
  #  def profession
  #    @profession
  #  end
@@ -8,19 +8,19 @@
  #  end
  #end
 
- #estudos = Estudos.new
- #estudos.profession = "Eu sou o Levi e vou me torna um Dev!"
- #puts estudos.profession
+ #studies = Studies.new
+ #studies.profession = "Eu sou o Levi e vou me torna um Dev!"
+ #puts studies.profession
 
  # or
 
- class Estudos
+ class Studies
   attr_accessor :profession, :complement
  end
 
- estudos = Estudos.new
- estudos.profession = "Eu sou o Levi e vou me torna um Dev!"
- puts estudos.profession
+ studies = Studies.new
+ studies.profession = "Eu sou o Levi e vou me torna um Dev!"
+ puts studies.profession
 
- estudos.complement = "O quanto antes melhor!"
- puts estudos.complement
+ studies.complement = "O quanto antes melhor!"
+ puts studies.complement
