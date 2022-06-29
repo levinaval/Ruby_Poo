@@ -116,13 +116,16 @@ decisao4 = gets.chomp
 #puts destino_do_pedido(decisao5)
 
 
-def inclusão(decisao4, menu_de_lanche, menu_de_bebidas)
+def inclusão1(decisao4, menu_de_lanche, menu_de_bebidas)
  if decisao4 == "lanche"
   puts menu_de_lanche.menu1
  elsif decisao4 == "bebida"
   puts menu_de_bebidas.menu2
  end
 end
+
+puts inclusão1(decisao4, menu_de_lanche, menu_de_bebidas)
+
 novo_pedido = []
 novo_pedido = gets.chomp
 
@@ -138,5 +141,19 @@ def inclusão2(decisao6, menu_de_lanche, menu_de_bebidas)
  end
 end
 
+puts inclusão2(decisao6, menu_de_lanche, menu_de_bebidas)
+
 novo_pedido2 = []
 novo_pedido2 = gets.chomp
+
+class inclusaoDePedido
+  def initialize(inclusão1, inclusão2)
+    
+  end
+end
+
+class PedidoFinalizado
+def initialize()
+  
+end
+end
