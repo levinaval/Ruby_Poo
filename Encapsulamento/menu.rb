@@ -103,7 +103,7 @@ puts
 print "Algo mais? "
 decisao3 = gets.chomp
 
-def escolha(decisao3)
+def escolha1(decisao3)
  if decisao3 == "sim"
    puts
    puts "Lanche ou bebida"
@@ -121,7 +121,7 @@ def escolha(decisao3)
  end
 end
 
-puts escolha(decisao3)
+puts escolha1(decisao3)
  
 decisao4 = gets.chomp
 
@@ -156,22 +156,28 @@ novo_pedido1 = []
 novo_pedido1 = gets.chomp
 
 
-puts "Algo mais?"
+print "Algo mais? "
 decisao5 = gets.chomp
 
-def inclusao1(decisao5, menu_de_lanche, menu_de_bebidas)
- if decisao5 == == "lanche"
-   puts
-   puts menu_de_lanche.menu1
-  elsif decisao4 == "bebida"
-   puts
-   puts menu_de_bebidas.menu2
-  elsif decisao5 == "Não"
-   puts "Tudo bem agradecemos os seus pedidos e esperamos que volte sempre!"
+def escolha1(decisao5)
+  if decisao5 == "sim"
+    puts
+    puts "Lanche ou bebida"
+  elsif decisao5 == "não"
+    puts
+    puts "Pedido finalizando."
+    puts "É para entrega ou retirada na loja?"
+   elsif decisao5 == "nao"
+    puts
+    puts "Pedido finalizando."
+    puts "É para entrega ou retirada na loja?"
   else
-   puts "Não compreendemos a sua opção."
+    puts
+    puts "Não compreendemos a sua opção."
+  end
  end
-end
+ 
+ puts escolha1(decisao5)
 
 def inclusao2(decisao6, menu_de_lanche, menu_de_bebidas)
   if decisao6 == "lanche"
@@ -180,6 +186,21 @@ def inclusao2(decisao6, menu_de_lanche, menu_de_bebidas)
   elsif decisao6 == "bebida"
     puts
     puts menu_de_bebidas.menu2
+  elsif decisao6 == "entrega"
+    puts
+    puts "Seu pedido será entregue entre 40 a 60 minutos!"
+    elsif decisao6 == "retirada"
+    puts
+    puts "Seu pedido será liberado para a retirada em 40 minutos!"
+    elsif decisao6 == "retirada na loja"
+    puts
+    puts "Seu pedido será liberado para a retirada em 40 minutos!"
+    elsif decisao6 == "retirada loja"
+    puts
+    puts "Seu pedido será liberado para a retirada em 40 minutos!"
+    else
+    puts
+    puts "Não compreendemos a sua opção."
  end
 end
 
