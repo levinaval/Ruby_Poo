@@ -100,12 +100,12 @@ pedido = PedidoDoCliente.new(pedido_do_lanche, pedido_do_bebida)
 pedido.mostrar_carrinho_de_pedidos
 
 retirada = ["Seu pedido será liberado para a retirada em 40 minutos!"]
-entrega = ["Seu pedido será entregue entre 40 a 60 minutos!"]
+entregar = ["Seu pedido será entregue entre 40 a 60 minutos!"]
 
 class EscolhaDeEntrega
-  def initialize(retirada, entrega)
+  def initialize(retirada, entregar)
   @retirada = retirada
-  @entrega = entrega
+  @entregar = entregar
   end
 
   def buscar
@@ -113,11 +113,11 @@ class EscolhaDeEntrega
   end
 
   def enviar
-    puts "#{@entrega}"
+    puts "#{@entregar}"
   end
 end
 
-destino = EscolhaDeEntrega.new(retirada, entrega)
+destino = EscolhaDeEntrega.new(retirada, entregar)
 #puts destino.buscar
 #puts destino.enviar
 
@@ -132,11 +132,11 @@ def escolha1(decisao3)
  elsif decisao3 == "não"
    puts "Pedido finalizando."
    puts 
-   puts "É para entrega ou retirada na loja?"
+   puts "É para entregar ou retirada na loja?"
   elsif decisao3 == "nao"
    puts
    puts "Pedido finalizando."
-   puts "É para entrega ou retirada na loja?"
+   puts "É para entregar ou retirada na loja?"
  else
    puts
    puts "Não compreendemos a sua opção."
@@ -154,7 +154,7 @@ def inclusao1(decisao4, menu_de_lanche, menu_de_bebidas)
   elsif decisao4 == "bebida"
   puts
   puts menu_de_bebidas.menu2
-  elsif decisao4 == "entrega"
+  elsif decisao4 == "entregar"
   puts
   puts destino.enviar
   elsif decisao4 == "retirada"
@@ -188,11 +188,11 @@ def escolha2(decisao5)
   elsif decisao5 == "não"
     puts
     puts "Pedido finalizando."
-    puts "É para entrega ou retirada na loja?"
+    puts "É para entregar ou retirada na loja?"
    elsif decisao5 == "nao"
     puts
     puts "Pedido finalizando."
-    puts "É para entrega ou retirada na loja?"
+    puts "É para entregar ou retirada na loja?"
   else
     puts
     puts "Não compreendemos a sua opção."
@@ -210,7 +210,7 @@ def inclusao2(decisao6, menu_de_lanche, menu_de_bebidas)
   elsif decisao6 == "bebida"
     puts
     puts menu_de_bebidas.menu2
-  elsif decisao6 == "entrega"
+  elsif decisao6 == "entregar"
     puts
     puts destino.enviar
     elsif decisao6 == "retirada"
@@ -240,7 +240,7 @@ class InclusaoDePedido
   end
 
   def pedidos_incluidos
-    puts "Pedido realizado:"
+    puts "Pedido acrecntedo:"
     puts "#{@novo_pedido1}"
     puts "#{@novo_pedido2}"
   end
@@ -248,7 +248,7 @@ end
 
 inclusao = InclusaoDePedido.new(novo_pedido1, novo_pedido2)
 puts inclusao.pedidos_incluidos
-#pedido.mostrar_carrinho_de_pedidos
+pedido.mostrar_carrinho_de_pedidos
 #
 #class PedidoFinalizado
 #  def initialize(pedido, inclusao)
