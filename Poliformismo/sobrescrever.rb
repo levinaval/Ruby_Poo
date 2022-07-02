@@ -18,19 +18,19 @@ class Pev < Instrument
   end
 end
 
-class Lapis
+class Pencil
   def write
     puts "Escrevendo à Lápis"
   end
 end
 
-teclado = Keyboard.new
-lapis = Lapis.new
-caneta = Pev.new
+keyboard = Keyboard.new
+pencil = Pencil.new
+pev = Pev.new
 
 puts "Lapis:"
-lapis.write
+pencil.write
 puts "caneta:"
-caneta.write
+pencil.write
 puts "Teclado:"
-teclado.write
+keyboard.write
