@@ -129,7 +129,7 @@ def escolha1(decisao3)
  if decisao3 == "sim"
    puts
    puts "Lanche ou bebida"
- elsif decisao3 == "não"
+  elsif decisao3 == "não"
    puts "Pedido finalizando."
    puts 
    puts "É para entregar ou retirada na loja?"
@@ -137,7 +137,7 @@ def escolha1(decisao3)
    puts
    puts "Pedido finalizando."
    puts "É para entregar ou retirada na loja?"
- else
+  else
    puts
    puts "Não compreendemos a sua opção."
  end
@@ -149,26 +149,26 @@ decisao4 = gets.chomp
 
 def inclusao1(decisao4, menu_de_lanche, menu_de_bebidas)
  if decisao4 == "lanche"
-  puts
-  puts menu_de_lanche.menu1
+    puts
+    puts menu_de_lanche.menu1
   elsif decisao4 == "bebida"
-  puts
-  puts menu_de_bebidas.menu2
+    puts
+    puts menu_de_bebidas.menu2
   elsif decisao4 == "entregar"
-  puts
-  puts destino.enviar
+    puts
+    puts destino.enviar
   elsif decisao4 == "retirada"
-  puts
-  puts destino.buscar
+    puts
+    puts destino.buscar
   elsif decisao4 == "retirada na loja"
-  puts
-  puts destino.buscar
+    puts
+    puts destino.buscar
   elsif decisao4 == "retirada loja"
-  puts
-  puts destino.buscar
+    puts
+    puts destino.buscar
   else
-  puts
-  puts "Não compreendemos a sua opção."
+    puts
+    puts "Não compreendemos a sua opção."
  end
 end
 
@@ -189,7 +189,7 @@ def escolha2(decisao5)
     puts
     puts "Pedido finalizando."
     puts "É para entregar ou retirada na loja?"
-   elsif decisao5 == "nao"
+  elsif decisao5 == "nao"
     puts
     puts "Pedido finalizando."
     puts "É para entregar ou retirada na loja?"
@@ -213,16 +213,16 @@ def inclusao2(decisao6, menu_de_lanche, menu_de_bebidas)
   elsif decisao6 == "entregar"
     puts
     puts destino.enviar
-    elsif decisao6 == "retirada"
+  elsif decisao6 == "retirada"
     puts
     puts destino.buscar
-    elsif decisao6 == "retirada na loja"
+  elsif decisao6 == "retirada na loja"
     puts
     puts destino.buscar
-    elsif decisao6 == "retirada loja"
+  elsif decisao6 == "retirada loja"
     puts
     puts destino.buscar
-    else
+  else
     puts
     puts "Não compreendemos a sua opção."
  end
