@@ -5,16 +5,16 @@ class Instrument
 end
 
 # A palavra reservada "super" faz com que o comando das duas classes funcionem de forma conjunta, sem sobrescrever uma a outra. 
-class Teclado < Instrument
+class Keyboard < Instrument
   def write
     puts "estou aqui!"
     super
   end
 end
 
-class Caneta < Instrument
+class Pev < Instrument
   def write
-    puts "Escrevendo à Caneta"
+    puts "Escrevendo à caneta"
   end
 end
 
@@ -24,13 +24,13 @@ class Lapis
   end
 end
 
-teclado = Teclado.new
+teclado = Keyboard.new
 lapis = Lapis.new
-caneta = Caneta.new
+caneta = Pev.new
 
 puts "Lapis:"
 lapis.write
-puts "Caneta:"
+puts "caneta:"
 caneta.write
 puts "Teclado:"
 teclado.write
