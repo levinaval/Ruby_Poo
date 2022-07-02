@@ -1,20 +1,20 @@
   class Animal
-    def pular
+    def to_jump
     puts "Toing! toing! toing! toing!"
     end
 
-    def dormir
+    def to_sleep
     puts "Va dormir! Zzz Zzz Zzz"
     end
   end
 
-  class Cachorro < Animal
-    def latir
+  class Dog < Animal
+    def bark
     puts "Au Au"
     end
   end
 
-  cachorro = Cachorro.new
-  cachorro.pular
-  cachorro.dormir
-  cachorro.latir
+  dog = Dog.new
+  dog.to_jump
+  dog.to_sleep
+  dog.bark
