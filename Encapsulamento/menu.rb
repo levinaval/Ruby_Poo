@@ -59,6 +59,7 @@ pedido_do_lanche = gets.chomp
 
 print "Quer pedir algo para beber? "
 puts
+
 decisao2 = gets.chomp
 
 def cliente2(decisao2, menu_de_bebidas)
@@ -147,7 +148,7 @@ puts escolha1(decisao3)
  
 decisao4 = gets.chomp
 
-def inclusao1(decisao4, menu_de_lanche, menu_de_bebidas)
+def inclusao1(decisao4, menu_de_lanche, menu_de_bebidas, retirada, entregar)
  if decisao4 == "lanche"
     puts
     puts menu_de_lanche.menu1
@@ -172,7 +173,7 @@ def inclusao1(decisao4, menu_de_lanche, menu_de_bebidas)
  end
 end
 
-puts inclusao1(decisao4, menu_de_lanche, menu_de_bebidas)
+puts inclusao1(decisao4, menu_de_lanche, menu_de_bebidas, retirada, entregar)
 
 novo_pedido1 = []
 novo_pedido1 = gets.chomp
