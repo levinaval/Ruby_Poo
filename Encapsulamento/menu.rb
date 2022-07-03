@@ -100,9 +100,6 @@ end
 pedido = PedidoDoCliente.new(pedido_do_lanche, pedido_do_bebida)
 pedido.mostrar_carrinho_de_pedidos
 
-retirada = ["Seu pedido será liberado para a retirada em 40 minutos!"]
-entregar = ["Seu pedido será entregue entre 40 a 60 minutos!"]
-
 class EscolhaDeEntrega
   def initialize(retirada, entregar)
   @retirada = retirada
@@ -118,7 +115,7 @@ class EscolhaDeEntrega
   end
 end
 
-destino = EscolhaDeEntrega.new(retirada, entregar)
+destino = EscolhaDeEntrega.new("Seu pedido será liberado para a retirada em 40 minutos!", "Seu pedido será entregue entre 40 a 60 minutos!")
 #puts destino.buscar
 #puts destino.enviar
 
