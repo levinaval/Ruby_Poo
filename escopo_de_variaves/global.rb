@@ -8,7 +8,7 @@ class Restalrant
   end
 end
 
-class Cafeteria
+class CoffeeMachine
   def second_request
     $global += 1
     puts $global    
@@ -16,10 +16,10 @@ class Cafeteria
 end
 
 really = Restalrant.new
-cafeteria = Cafeteria.new
+coffee_machine = CoffeeMachine.new
 
 really.first_request
-cafeteria.second_request
-cafeteria.second_request
+coffee_machine.second_request
+coffee_machine.second_request
 # Por isso é muito perigosa! pode ser chamada por qualquer método, qualquer lugar pode altera-la. 
 puts $global   
