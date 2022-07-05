@@ -13,19 +13,22 @@ class Contagem
   end
 end
 
-class MaisCaracteres
+class MaisCaracteres < Contagem
   def caracteres(@name1, @name2)
     @name1.length
     @name2.length
   end
 
-  def Contagem
+  def contagem
     if @name1 > @name2 
       puts "Este nome #{@name1} tem #{@name1.length} caracteres!"
-    elsif 
-      
+    elsif @name1 < @name2
+      puts "Este nome #{@name2} tem #{@name2.length} caracteres!"
     else
-      
+      pust "Estes nomes #{@name1} e #{@name2} são iquais pois tem #{@name1.length} caracteres!"
     end
   end
 end
+
+confere = MaisCaracteres.new(name1, name2)
+puts confere.contagem
