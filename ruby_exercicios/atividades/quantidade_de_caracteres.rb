@@ -1,17 +1,23 @@
 # Escreva um programa que leia dois nomes e mostre o que contém maior quantidade de caracteres. 
 
-puts "Escreva seu nome:"
+print "Escreva seu nome:"
 name1 = gets.chomp
 
-puts "Escreva outro nome:"
+print "Escreva outro nome:"
 name2 = gets.chomp
 
-def contagem_de_caracteres
+def contagem_de_caracteres(name1, name2)
   
+  puts name1.length 
+  puts name2.length 
+
 end
 
+contagem_de_caracteres(name1, name2)
 
-lista = []
+#def maior_quantidade(name1, name2)
+  
+  
+#end
 
-lista.push("ha", "he", "hi", "a")
-puts lista.lengt
+#maior_quantidade(name1, name2)
