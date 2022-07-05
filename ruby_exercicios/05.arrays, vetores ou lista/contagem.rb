@@ -3,4 +3,4 @@
 lista = []
 
 lista.push("ha", "he", "hi", "a")
-puts lista.lengt
+puts lista.length
