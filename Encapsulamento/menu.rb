@@ -1,12 +1,8 @@
 class MenuDeLanche 
   def initialize(poi1, opi2, opi3, opi4, opi5, opi6)
-    @poi1 = poi1
-    @opi2 = opi2
-    @opi3 = opi3
-    @opi4 = opi4
-    @opi5 = opi5
-    @opi6 = opi6
+    @poi1, @opi2, @opi3, @opi4, @opi5, @opi6 = poi1, opi2, opi3, opi4, opi5, opi6
   end
+  
   def menu1
     puts "Este é o nosso Menu:"
     puts "#{@poi1}, #{@opi2}, #{@opi3}, #{@opi4}, #{@opi5}, #{@opi6}"
