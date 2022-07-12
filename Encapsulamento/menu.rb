@@ -2,7 +2,7 @@ class MenuDeLanche
   def initialize(poi1, opi2, opi3, opi4, opi5, opi6)
     @poi1, @opi2, @opi3, @opi4, @opi5, @opi6 = poi1, opi2, opi3, opi4, opi5, opi6
   end
-  
+
   def menu1
     puts "Este é o nosso Menu:"
     puts "#{@poi1}, #{@opi2}, #{@opi3}, #{@opi4}, #{@opi5}, #{@opi6}"
@@ -13,10 +13,7 @@ menu_de_lanche = MenuDeLanche.new("sopa", "cachorro_quente", "amburgue", "batata
 
 class MenuDeBebidas
   def initialize(opi1, opi2, opi3, opi4)
-    @opi1 = opi1
-    @opi2 = opi2
-    @opi3 = opi3
-    @opi4 = opi4
+    @opi1, @opi2, @opi3, @opi4 = opi1, opi2, opi3, opi4
   end
 
   def menu2
