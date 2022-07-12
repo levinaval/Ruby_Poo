@@ -15,3 +15,21 @@ carro = Carro.new("Versa", 2014, "Preto")
 #puts carro.cor
 
 puts "Comprei um carro do modelo #{carro.modelo}, ano #{carro.ano}. É um carro lindo da cor #{carro.cor}"
+
+#or
+
+class Carro
+attr_reader :ano, :modelo, :cor
+ def initialize(ano, modelo, cor)
+   @ano = ano
+   @modelo = modelo
+   @cor = cor
+ end
+
+ def comunicar
+   puts " Comprei um carro do modelo #{modelo}, ano #{ano}. É um carro lindo na cor #{cor}!"
+ end
+end
+
+carro = Carro.new(2014, "Versa", "Preta")
+puts carro.comunicar
