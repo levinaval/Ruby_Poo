@@ -26,11 +26,25 @@ end
 puts resultado
 
 puts "-*-*-*-*-*"
-puts "Menu Bebidas"
-# puts menu_bebidas.options
+puts "Menu bebida - Escolha a sua bebida:"
+puts menu_bebidas.options
+#puts "1. #{menu_bebidas}"
+#puts "2. #{menu_bebidas}"
 
-menu_bebidas.options.size.times do |posicao|
-  puts "#{posicao + 1} #{menu_bebidas.options[posicao]}"
+puts "Escolha a sua bebida: "
+bebida = gets.chop.to_i
+
+case bebida
+when 1
+  resultado2 = menu_bebidas
+when 2
+  resultado2 = menu_bebidas
 end
+
+puts resultado2
+
+#menu_bebidas.options.size.times do |posicao|
+#  puts "#{posicao + 1} #{menu_bebidas.options[posicao]}"
+#end
 
 
