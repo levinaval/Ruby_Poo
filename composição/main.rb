@@ -23,13 +23,15 @@ when 3
   resultado = menu_lanches.lanche3
 end
 
+puts 
 puts resultado
 
 puts "-*-*-*-*-*"
 puts "Menu bebida - Escolha a sua bebida:"
-puts menu_bebidas.options
-#puts "1. #{menu_bebidas}"
-#puts "2. #{menu_bebidas}"
+
+menu_bebidas.options.size.times do |posicao|
+  puts "#{posicao + 1} #{menu_bebidas.options[posicao]}"
+end
 
 puts "Escolha a sua bebida: "
 bebida = gets.chop.to_i
@@ -42,9 +44,3 @@ when 2
 end
 
 puts resultado2
-
-#menu_bebidas.options.size.times do |posicao|
-#  puts "#{posicao + 1} #{menu_bebidas.options[posicao]}"
-#end
-
-
