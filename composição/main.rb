@@ -45,4 +45,13 @@ end
 
 puts "Degeja algo mais?"
 print "1 (Sim), 2 (Não): "
-decisao = gets.chop.to_i
+decisao1 = gets.chop.to_i
+
+case decisao1
+when 1
+  
+when 
+  
+else
+  
+end
