@@ -42,3 +42,7 @@ when 1
 when 2
   puts menu_bebidas.options[0]
 end
+
+puts "Degeja algo mais?"
+print "1 (Sim), 2 (Não): "
+decisao = gets.chop.to_i
