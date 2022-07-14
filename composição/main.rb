@@ -1,5 +1,6 @@
 require_relative 'menu_lanches'
 require_relative 'menu_bebidas'
+require_relative 'forma_de_entrega'
 
 menu_lanches = MenuLanches.new("Hamburger", "Cachorro Quente", "Batata Frita")
 menu_bebidas = MenuBebidas.new(["Suco", "Refrigerante"])
