@@ -11,7 +11,7 @@ puts "1. #{menu_lanches.lanche1}"
 puts "2. #{menu_lanches.lanche2}"
 puts "3. #{menu_lanches.lanche3}"
 
-puts "Escolha o seu lanche: "
+print "Escolha o seu lanche: "
 lanche = gets.chop.to_i
 
 case lanche
@@ -27,20 +27,18 @@ puts
 puts resultado
 
 puts "-*-*-*-*-*"
-puts "Menu bebida - Escolha a sua bebida:"
-
+puts "Menu bebida:"
 menu_bebidas.options.size.times do |posicao|
   puts "#{posicao + 1} #{menu_bebidas.options[posicao]}"
 end
 
-puts "Escolha a sua bebida: "
+print "Escolha a sua bebida: "
 bebida = gets.chop.to_i
+puts
 
 case bebida
 when 1
-  resultado2 = menu_bebidas
+  puts menu_bebidas.options[1]
 when 2
-  resultado2 = menu_bebidas
+  puts menu_bebidas.options[0]
 end
-
-puts resultado2
