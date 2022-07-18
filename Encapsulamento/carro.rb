@@ -20,7 +20,7 @@ class Carro
 attr_reader :ano, :modelo, :cor
  def initialize(ano, modelo, cor)
    @ano, @modelo, @cor = ano, modelo, cor
- end
+ end              
 
  def comunicar
    puts " Comprei um carro do modelo #{modelo}, ano #{ano}. É um carro lindo na cor #{cor}!"
@@ -28,4 +28,4 @@ attr_reader :ano, :modelo, :cor
 end
 
 carro = Carro.new(2014, "Versa", "Preta")
-puts carro.comunicar
+puts carro.comunicar          
