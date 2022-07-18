@@ -1,9 +1,7 @@
 class Sereais
   attr_reader :quantidade, :produto, :valor
   def initialize(quantidade, produto, valor)
-    @quantidade = quantidade
-    @produto = produto
-    @valor = calcular_desconto(valor)
+    @quantidade, @produto, @valor = quantidade, produto, calcular_desconto(valor)
     #@desconto = desconto
   end
 
