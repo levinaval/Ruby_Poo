@@ -18,6 +18,3 @@ class Livro
     end
   end
 end
-  
-l1 = Livro.new("levi", 50.0, 1000)
-l1.info
