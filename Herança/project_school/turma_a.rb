@@ -21,5 +21,5 @@ class TurmaA
 
 end
 
-turma_a = TurmaA.new("Antonio", 101, "Alana", 102, "Bruno", 103, "Brena", 104, "Carlos", 105, "Catia", 106, "Debora", 107, "Danilo", 108, "Flavio", 109, "Tony", 1010)
+turma_a = TurmaA.new("Antonio", 101, "Alana", 102, "Bruno", 103, "Brena", 104, "Carlos", 105, "Catia", 106, "Debora", 107, "Danilo", 108, "Flavio", 109, "Tony", 110)
 turma_a.ordem_a
