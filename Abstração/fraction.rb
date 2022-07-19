@@ -11,3 +11,13 @@
 #objeto do tipo Fraction com o resultado da multiplicação
 
 #Métodos de acesso às variáveis de numerador e denominador
+
+class Fraction
+  def initialize(numerador, denominador)
+    @numerador, @denominador = numerador, denominador
+  end
+
+  def convercao
+    
+  end
+end
