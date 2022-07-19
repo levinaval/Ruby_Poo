@@ -1,25 +1,23 @@
-class Sereais
-  attr_reader :quantidade, :produto, :valor
-  def initialize(quantidade, produto, valor)
-    @quantidade, @produto, @valor = quantidade, produto, calcular_desconto(valor)
-    #@desconto = desconto
+class Livros
+  attr_reader :nome, :ano, :preco
+
+  def initialize(nome, ano, preco)
+    @nome, @ano, @preco = nome, ano, dar_desconto(preco)
   end
 
-  def comunicar
-    puts "O produto do tipo #{produto} custa #{valor}, tendo uma quantidade de #{quantidade}kl tera um descontonto de , ficando assim com um valor de #{valor}"
+  def mostra_dados
+    puts "Livos: #{@nome}, ano de lançamento: #{@ano}, preço: r$ #{@preco}"
   end
-  
+
   private
-  def calcular_desconto(valor)
-    if produto == 100
-     valor * 1.9
-     elsif produto == 90
-     valor * 0.9
-     else
-     valor
-    end  
+  def dar_desconto(preco)
+   if @ano < 2000    
+    @preco = @preco - (@preco * 0.1)
+   else
+     preco
+   end
   end
 end
 
-mercado = Sereais.new(100, "Feijão", 5)
-puts mercado.comunicar
+l1 = Livros.new("bla bla", 1000, 50.00)
+l1.mostra_dados

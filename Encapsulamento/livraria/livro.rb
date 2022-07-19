@@ -7,7 +7,7 @@ class Livro
   end
 
   def info
-    "Nome: #{@nome}, Preço: #{@preco}, Ano: #{@ano}"
+   puts "Nome: #{@nome}, Preço: #{@preco}, Ano: #{@ano}"
   end
 
   private
@@ -18,3 +18,6 @@ class Livro
     end
   end
 end
+  
+l1 = Livro.new("levi", 50.0, 1000)
+l1.info
