@@ -1,11 +1,10 @@
-class TurmaA
+class TurmaB
   attr_reader :aluno1, :matricula1, :aluno2, :matricula2, :aluno3, :matricula3, :aluno4, :matricula4, :aluno5, :matricula5, :aluno6, :matricula6, :aluno7, :matricula7, :aluno8, :matricula8, :aluno9, :matricula9, :aluno10, :matricula10
-  
   def initialize(aluno1, matricula1, aluno2, matricula2, aluno3, matricula3, aluno4, matricula4, aluno5, matricula5, aluno6, matricula6, aluno7, matricula7, aluno8, matricula8, aluno9, matricula9, aluno10, matricula10)
     @aluno1, @matricula1, @aluno2, @matricula2, @aluno3, @matricula3, @aluno4, @matricula4, @aluno5, @matricula5, @aluno6, @matricula6, @aluno7, @matricula7, @aluno8, @matricula8, @aluno9, @matricula9, @aluno10, @matricula10 = aluno1, matricula1, aluno2, matricula2, aluno3, matricula3, aluno4, matricula4, aluno5, matricula5, aluno6, matricula6, aluno7, matricula7, aluno8, matricula8, aluno9, matricula9, aluno10, matricula10
   end
 
-  def ordem_a
+  def ordem_b
     puts "Olá! Somos a turma A"
     puts "Relação de alunos:"
     puts "Aluno: #{aluno1}, matricola: #{matricula1}"
@@ -21,6 +20,3 @@ class TurmaA
   end
 
 end
-
-turma_a = TurmaA.new("Antonio", 101, "Alana", 102, "Bruno", 103, "Brena", 104, "Carlos", 105, "Catia", 106, "Debora", 107, "Danilo", 108, "Flavio", 109, "Tony", 110)
-turma_a.ordem_a
