@@ -1,5 +1,6 @@
 class TurmaA
   attr_reader :aluno1, :matricula1, :aluno2, :matricula2, :aluno3, :matricula3, :aluno4, :matricula4, :aluno5, :matricula5, :aluno6, :matricula6, :aluno7, :matricula7, :aluno8, :matricula8, :aluno9, :matricula9, :aluno10, :matricula10
+  
   def initialize(aluno1, matricula1, aluno2, matricula2, aluno3, matricula3, aluno4, matricula4, aluno5, matricula5, aluno6, matricula6, aluno7, matricula7, aluno8, matricula8, aluno9, matricula9, aluno10, matricula10)
     @aluno1, @matricula1, @aluno2, @matricula2, @aluno3, @matricula3, @aluno4, @matricula4, @aluno5, @matricula5, @aluno6, @matricula6, @aluno7, @matricula7, @aluno8, @matricula8, @aluno9, @matricula9, @aluno10, @matricula10 = aluno1, matricula1, aluno2, matricula2, aluno3, matricula3, aluno4, matricula4, aluno5, matricula5, aluno6, matricula6, aluno7, matricula7, aluno8, matricula8, aluno9, matricula9, aluno10, matricula10
   end
