@@ -1,4 +1,4 @@
-class MenuDeLanche 
+class SnackMenu 
   def initialize(poi1, opi2, opi3, opi4, opi5, opi6)
     @poi1, @opi2, @opi3, @opi4, @opi5, @opi6 = poi1, opi2, opi3, opi4, opi5, opi6
   end
@@ -9,9 +9,9 @@ class MenuDeLanche
   end
 end
 
-menu_de_lanche = MenuDeLanche.new("sopa", "cachorro_quente", "amburgue", "batata_frita", "filer_parmagiana", "pastel")
+snack_menu = SnackMenu.new("sopa", "cachorro_quente", "amburgue", "batata_frita", "filer_parmagiana", "pastel")
 
-class MenuDeBebidas
+class DrinksMenu
   def initialize(opi1, opi2, opi3, opi4)
     @opi1, @opi2, @opi3, @opi4 = opi1, opi2, opi3, opi4
   end
@@ -22,17 +22,17 @@ class MenuDeBebidas
   end
 end
 
-menu_de_bebidas = MenuDeBebidas.new("Suco", "Refrigerante", "Água de cocô", "Caldo de cana")
+menu_de_bebidas = DrinksMenu.new("Suco", "Refrigerante", "Água de cocô", "Caldo de cana")
 
 puts "Olá! benvindo a Lanchonete Delícia"
 puts
 print "Gostaria de fazer o seu pedido? "
 decisao = gets.chomp
 
-def cliente(decisao, menu_de_lanche)
+def cliente(decisao, snack_menu)
  if decisao == "sim"
    puts
-   puts menu_de_lanche.menu1
+   puts snack_menu.menu1
  elsif decisao == "não"
    puts
    puts "Ok! Até a procima."
@@ -45,7 +45,7 @@ def cliente(decisao, menu_de_lanche)
  end
 end
 
-puts cliente(decisao, menu_de_lanche)
+puts cliente(decisao, snack_menu)
 
 pedido_do_lanche = []
 pedido_do_lanche = gets.chomp
@@ -137,10 +137,10 @@ puts escolha1(decisao3)
  
 decisao4 = gets.chomp
 
-def inclusao1(decisao4, menu_de_lanche, menu_de_bebidas, retirada, entregar)
+def inclusao1(decisao4, snack_menu, menu_de_bebidas, retirada, entregar)
  if decisao4 == "lanche"
     puts
-    puts menu_de_lanche.menu1
+    puts snack_menu.menu1
   elsif decisao4 == "bebida"
     puts
     puts menu_de_bebidas.menu2
@@ -162,7 +162,7 @@ def inclusao1(decisao4, menu_de_lanche, menu_de_bebidas, retirada, entregar)
  end
 end
 
-puts inclusao1(decisao4, menu_de_lanche, menu_de_bebidas, retirada, entregar)
+puts inclusao1(decisao4, snack_menu, menu_de_bebidas, retirada, entregar)
 
 novo_pedido1 = []
 novo_pedido1 = gets.chomp
@@ -193,10 +193,10 @@ def escolha2(decisao5)
 
  decisao6 = gets.chomp
 
-def inclusao2(decisao6, menu_de_lanche, menu_de_bebidas)
+def inclusao2(decisao6, snack_menu, menu_de_bebidas)
   if decisao6 == "lanche"
     puts
-    puts menu_de_lanche.menu1
+    puts snack_menu.menu1
   elsif decisao6 == "bebida"
     puts
     puts menu_de_bebidas.menu2
@@ -218,7 +218,7 @@ def inclusao2(decisao6, menu_de_lanche, menu_de_bebidas)
  end
 end
 
-puts inclusao2(decisao6, menu_de_lanche, menu_de_bebidas)
+puts inclusao2(decisao6, snack_menu, menu_de_bebidas)
 
 novo_pedido2 = []
 novo_pedido2 = gets.chomp
