@@ -1,10 +1,10 @@
-require_relative 'menu_lanche'
-require_relative 'menu_bebida'
-require_relative 'forma_de_entrga'
+require_relative 'menu_lanches'
+require_relative 'menu_bebidas'
+require_relative 'forma_de_entrega'
 
-snacks_menu = MenuLanches.new("Hamburger", "Cachorro Quente", "Batata Frita")
-drinks_menu = MenuBebidas.new(["Suco", "Refrigerante"])
-order_ithdrawal = RetiradaDePedido.new("O pedido estará disponível para a retirada em 40 minutos!", "O pedido estará saindo para a entrega em 40 minutos!")
+snacks_menu = SnacksMenu.new("Hamburger", "Cachorro Quente", "Batata Frita")
+drinks_menu = DrinksMenu.new(["Suco", "Refrigerante"])
+order_ithdrawal = OrderWithdrawal.new("O pedido estará disponível para a retirada em 40 minutos!", "O pedido estará saindo para a entrega em 40 minutos!")
 
 puts "-*-*-*-*-*"
 puts "Menu Lanches - Escolha o seu Lanche:"
