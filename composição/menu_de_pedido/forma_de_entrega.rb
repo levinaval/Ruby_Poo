@@ -1,7 +1,7 @@
-class RetiradaDePedido
-  attr_accessor :retirada_na_loja, :entrega
+class OrderWithdrawal
+  attr_accessor :pick_up_in_store, :delivery
 
-  def initialize(retirada_na_loja, entrega)
-    @retirada_na_loja, @entrega = retirada_na_loja, entrega
+  def initialize(pick_up_in_store, delivery)
+    @pick_up_in_store, @delivery = pick_up_in_store, delivery
   end
 end
