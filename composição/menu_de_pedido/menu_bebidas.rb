@@ -5,4 +5,3 @@ class DrinksMenu
     @options= options
   end
 end
-
