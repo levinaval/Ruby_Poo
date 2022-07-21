@@ -1,7 +1,7 @@
-class MenuLanches
-  attr_accessor :lanche1, :lanche2, :lanche3
+class SnacksMenu
+  attr_accessor :snacks1, :snacks2, :snacks3
 
-  def initialize(lanche1, lanche2, lanche3)
-    @lanche1, @lanche2, @lanche3 = lanche1, lanche2, lanche3
+  def initialize(snacks1, snacks2, snacks3)
+    @snacks1, @snacks2, @snacks3 = snacks1, snacks2, snacks3
   end
 end
