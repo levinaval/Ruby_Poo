@@ -1,4 +1,4 @@
-class MenuBebidas
+class DrinksMenu
   attr_accessor :options
 
   def initialize(options = [])
