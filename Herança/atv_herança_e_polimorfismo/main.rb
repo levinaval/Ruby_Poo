@@ -9,8 +9,8 @@ require_relative 'cachorro'
 require_relative 'carro'
 require_relative 'funcionario'
 
-cachorro = Cachorro.new("Thor")
-cachorro.comunicar
+puppy = Puppy.new
+puppy.comunicar
 
 carro = Carro.new
 carro.ligar_carro
