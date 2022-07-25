@@ -1,19 +1,19 @@
 #3. Cria uma classe Aluno com o atributo matrícula e série, Aluno herdará de Pessoa. Aluno terá um método chamado
-#apresentar (sobreescrita) que imprimirá a seguinte frase:
-#Olá! Eu sou Aluno #{name} da série #{serie} com a seguinte matrícula #{matrícula}.
+#apresentador (sobreescrita) que imprimirá a seguinte frase:
+#Olá! Eu sou Aluno #{name} da série #{series} com a seguinte matrícula #{matrícula}.
 
 require_relative 'class_pessoa'
 
-class Aluno < Person
-  attr_reader :matricula, :serie
-  def initialize(name, matricula, serie)
-    @name, @matricula, @serie = name, matricula, serie
+class Student < Person
+  attr_reader :registration, :series
+  def initialize(name, registration, series)
+    @name, @registration, @series = name, registration, series
   end
 
-  def apresentar
-    puts "Olá! Eu sou Aluno #{@name} da série do #{@serie} com a seguinte matrícula #{@matricula}."
+  def to_introduce
+    puts "Olá! Eu sou Aluno #{@name} da série do #{@series} com a seguinte matrícula #{@registration}."
   end
 end
 
-aluno = Aluno.new("Breno", 2034, "primeiro ano")
-aluno.apresentar
+student = Student.new("Breno", 2034, "primeiro ano")
+student.to_introduce
