@@ -15,5 +15,5 @@ puppy.comunicar
 car = Car.new
 car.turn_on_car
 
-funcionario = Funcionario.new
-funcionario.calcular_comissao(2000.0, 8)
+employee = Employee.new
+employee.calculate_commission(2000.0, 8)

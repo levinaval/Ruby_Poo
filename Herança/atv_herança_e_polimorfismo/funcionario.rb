@@ -1,9 +1,9 @@
-class Funcionario
+class Employee
 
-  def calcular_comissao(venda, gratificacao)
-    comissao = (venda * gratificacao) / 100
-    diferenca = venda - comissao
+  def calculate_commission(sale, gratification)
+    commission = (sale * gratification) / 100
+    diferenca = sale - commission
     puts "A comição para o vendedor: " +
-    comissao.to_s
+    commission.to_s
   end
 end
