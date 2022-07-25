@@ -2,16 +2,16 @@
 #apresentar (sobreescrita) que imprimirá a seguinte frase: Olá! Eu sou Diretor #{name} do setor #{setor}.
 require_relative 'class_pessoa'
 
-class Diretor < Pessoa
-  attr_reader :setor
-  def initialize(name, setor)
-    @name, @setor = name, setor
+class Director < Person
+  attr_reader :sector
+  def initialize(name, sector)
+    @name, @sector = name, sector
   end
 
-  def apresentar
-   puts "Olá! Eu sou Diretor #{name} do setor #{setor}."   
+  def to_introduce
+   puts "Olá! Eu sou Diretor #{name} do setor #{sector}."   
   end
 end
 
-diretor = Diretor.new("Carlos", "de administração")
-diretor.apresentar
+director = Director.new("Carlos", "de administração")
+director.to_introduce

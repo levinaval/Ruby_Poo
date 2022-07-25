@@ -4,7 +4,7 @@
 
 require_relative 'class_pessoa'
 
-class Aluno < Pessoa
+class Aluno < Person
   attr_reader :matricula, :serie
   def initialize(name, matricula, serie)
     @name, @matricula, @serie = name, matricula, serie
