@@ -1,19 +1,19 @@
-#2. Cria uma classe Professor com o atributo disciplina, Professor herdará de Pessoa. Professor terá um método chamado
-#apresentar (sobreescrita) que imprimirá a seguinte frase: Olá! Eu sou Professor #{nome} da disciplina #{disciplina}.
+#2. Cria uma classe Professor com o atributo subject, Professor herdará de Pessoa. Professor terá um método chamado
+#apresentar (sobreescrita) que imprimirá a seguinte frase: Olá! Eu sou Professor #{nome} da subject #{subject}.
 
 require_relative 'class_pessoa'
 
-class Professor < Pessoa
-  attr_reader :disciplina
-  def initialize(name, disciplina)
+class Teacher < Person
+  attr_reader :subject
+  def initialize(name, subject)
     @name = name
-    @disciplina = disciplina
+    @subject = subject
   end
 
-  def apresentar
-    puts "Olá! Eu sou Professor #{name} da disciplina de #{@disciplina}."
+  def to_introduce
+    puts "Olá! Eu sou Professor #{name} da disciplina de #{@subject}."
   end
 end
 
-professor = Professor.new("Levi", "Matemática")
-professor.apresentar
+teacher = Teacher.new("Levi", "Matemática")
+teacher.to_introduce
