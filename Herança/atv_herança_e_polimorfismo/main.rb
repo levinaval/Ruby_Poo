@@ -5,31 +5,15 @@
 # Na classe Funcionário, criar a função "calcular comissão" que vai receber dois argumentos e somar a comissão do funcionário;
 #imprimindo o valor da comissão.
 
-class Cachorro
-  def comunicar
-    puts "Au Au Au"
-  end
-end
+require_relative 'cachorro'
+require_relative 'carro'
+require_relative 'funcionario'
 
-class Carro
-  def ligar_carro
-    puts "O carro está ligado!"
-  end
-end
-
-class Funcionario
-  def calcular_comicao(venda, gratificacao)
-    comissao = (venda * gratificacao) / 100
-    diferenca = venda - comissao
-    puts "A comição para o vendedor: " +
-    comissao.to_s
-  end
-end
-
-cachorro = Cachorro.new
-carro = Carro.new
-funcionario = Funcionario.new
-
+cachorro = Cachorro.new("Thor")
 cachorro.comunicar
+
+carro = Carro.new
 carro.ligar_carro
-funcionario.calcular_comicao(2000.0, 8)
+
+funcionario = Funcionario.new
+funcionario.calcular_comissao(2000.0, 8)
