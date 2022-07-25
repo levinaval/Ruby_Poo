@@ -1,6 +1,8 @@
 #1. Criar uma classe Pessoa com atributo nome, idade. Pessoa terá um método chamado apresentar que imprimirá
 #a seguinte frase: Olá! Eu sou classe Pessoa.
 
+#2. Cria uma classe Professor com o atributo disciplina, Professor herdará de Pessoa. Professor terá um método chamado
+#apresentar (sobreescrita) que imprimirá a seguinte frase: Olá! Eu sou Professor #{nome} da disciplina #{disciplina}.
 
 #3. Cria uma classe Aluno com o atributo matrícula e série, Aluno herdará de Pessoa. Aluno terá um método chamado
 #apresentar (sobreescrita) que imprimirá a seguinte frase:
@@ -16,6 +18,9 @@ class Pessoa
   end
   
   def apresentar
-   puts "Olá! Eu sou classe Pessoa."
+   puts "Olá! Eu sou classe Pessoa meu nome é #{@name} e tenho #{@idade} anos!."
   end
 end
+
+#pessoa = Pessoa.new("Levi", 37)
+#pessoa.apresentar
