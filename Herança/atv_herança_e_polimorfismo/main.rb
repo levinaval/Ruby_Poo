@@ -12,8 +12,8 @@ require_relative 'funcionario'
 puppy = Puppy.new
 puppy.comunicar
 
-carro = Carro.new
-carro.ligar_carro
+car = Car.new
+car.turn_on_car
 
 funcionario = Funcionario.new
 funcionario.calcular_comissao(2000.0, 8)
