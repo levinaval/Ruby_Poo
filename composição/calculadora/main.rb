@@ -1,12 +1,6 @@
-require_relative 'soma'
-require_relative 'subitracao'
-require_relative 'multiplicasao'
-require_relative 'divisao'
 
-s = Soma.new(x, y)
-subt = Subtracao.new(x, y)
-m = Multiplicacao.new(x, y)
-d = Divisao.new(x, y)
+
+
 
 
 puts "Vamos calcular? (s) para Sim ou (n) para Não?"
@@ -30,15 +24,23 @@ end
 escolha = gets.chomp
 
 if escolha == "s"
+  require_relative 'soma'
+  s = Soma.new(x, y)
   s.calcular
 
  elsif escolha == "sub"
+  require_relative 'subtracao'
+  subt = Subtracao.new(x, y)
   subt.calcular
 
  elsif escolha == "m"
+  require_relative 'multiplicacao'
+  m = Multiplicacao.new(x, y)
   m.calcular
 
  elsif escolha == "d"
+  require_relative 'divisao'
+  d = Divisao.new(x, y)
   d.calcular
 
  else
