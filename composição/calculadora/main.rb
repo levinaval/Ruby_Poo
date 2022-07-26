@@ -1,8 +1,3 @@
-
-
-
-
-
 puts "Vamos calcular? (s) para Sim ou (n) para Não?"
 decisao = gets.chomp
 
