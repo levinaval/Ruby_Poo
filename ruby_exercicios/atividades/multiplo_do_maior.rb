@@ -10,9 +10,9 @@ resultado = segundo / primeiro
 
 #puts resultado
 
-if resultado <= 0
+if resultado = 0
   puts "é múltiplo"
-elsif resultado <= 0.0
+elsif resultado = 0.0
   puts "não é múltiplo"  
 end
 
