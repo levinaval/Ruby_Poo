@@ -15,3 +15,5 @@ if resultado <= 0
 elsif resultado <= 0.0
   puts "não é múltiplo"  
 end
+
+a desenvolver
