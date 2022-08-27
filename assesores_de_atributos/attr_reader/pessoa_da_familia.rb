@@ -1,4 +1,3 @@
-# O attr_reader só dá acesso a leitura, não permitindo assim a sua modificação.  
 
 #class PessoasDaFamilia
 #  attr_reader :nome, :altura 
