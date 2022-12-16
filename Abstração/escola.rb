@@ -1,3 +1,8 @@
+puts "Qual turma você quer ver?"
+puts "A ou B"
+
+decisao = gets.chomp.to_f
+
 turmaA = ["levi", "laura"]
 turmaB = ["louise", "luna"]
 
@@ -13,8 +18,18 @@ class Escola
   def b     
     puts "Temos a turma #{@turmaB}"
   end
+
+  def escolha
+   if decisao == "a"
+    escola.a 
+   elsif decisao == "b"
+    escola.b
+   else
+     puts "Opção inválida"
+   end
+  end
 end
 
 
 escola = Escola.new(turmaA, turmaB)
-escola.a
+escola.escolha
