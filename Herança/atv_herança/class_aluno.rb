@@ -15,5 +15,5 @@ class Student < Person
   end
 end
 
-student = Student.new("Breno", 2034, "primeiro ano")
+student = Student.new("Carlos", 2034, "primeiro ano")
 student.to_introduce
