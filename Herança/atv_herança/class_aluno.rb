@@ -11,7 +11,7 @@ class Student < Person
   end
 
   def to_introduce
-    puts "Olá! Eu sou Aluno #{@name} da série do #{@series}, estou nesta escola desde #{@date} com a seguinte matrícula #{@registration}."
+    puts "Olá! Eu sou aluno #{@name} da série do #{@series}, estou nesta escola desde #{@date} com a seguinte matrícula #{@registration}."
   end
 end
 
