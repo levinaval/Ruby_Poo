@@ -11,9 +11,9 @@ class Student < Person
   end
 
   def to_introduce
-    puts "Olá! Eu sou Aluno #{@name} da série do #{@series}, estou nesta escola des de @{@date} com a seguinte matrícula #{@registration}."
+    puts "Olá! Eu sou Aluno #{@name} da série do #{@series}, estou nesta escola desde #{@date} com a seguinte matrícula #{@registration}."
   end
 end
 
-student = Student.new("Carlos", 2034, "primeiro ano", 24/02/1985)
+student = Student.new("Carlos", 2034, "primeiro ano", 1985)
 student.to_introduce
