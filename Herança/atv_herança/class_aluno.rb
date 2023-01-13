@@ -7,13 +7,13 @@ require_relative 'class_pessoa'
 class Student < Person
   attr_reader :registration, :series
   def initialize(name, registration, series, date)
-    @name, @registration, @series = name, registration, series
+    @name, @registration, @series, @date = name, registration, series, date
   end
 
   def to_introduce
-    puts "Olá! Eu sou Aluno #{@name} da série do #{@series} com a seguinte matrícula #{@registration}."
+    puts "Olá! Eu sou Aluno #{@name} da série do #{@series}, estou nesta escola des de @{@date} com a seguinte matrícula #{@registration}."
   end
 end
 
-student = Student.new("Carlos", 2034, "primeiro ano")
+student = Student.new("Carlos", 2034, "primeiro ano", 24/02/1985)
 student.to_introduce
