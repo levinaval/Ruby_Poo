@@ -6,7 +6,7 @@ require_relative 'class_pessoa'
 
 class Student < Person
   attr_reader :registration, :series
-  def initialize(name, registration, series)
+  def initialize(name, registration, series, date)
     @name, @registration, @series = name, registration, series
   end
 
