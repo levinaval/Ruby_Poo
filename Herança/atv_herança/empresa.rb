@@ -9,8 +9,8 @@ class Pessoa
   end
 end
 
-#p = Pessoa.new("Lucas", "Diretor", "Petrobrans")
-#p.apresentação
+p = Pessoa.new("Lucas", "Diretor", "Petrobrans")
+p.apresentação
 
 class Empresa < Pessoa
   attr_reader :nome, :cargo, :empresa
