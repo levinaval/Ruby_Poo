@@ -3,14 +3,7 @@ class Person
   def initialize(name, title, company)
     @name, @title, @company = name, title, company
   end
-
-  def presentation
-    puts "Eu sou #{@name}, trabalho na #{@company} e já fui promovido para o cargo de #{@title}."
-  end
 end
-
-p = Person.new("Lucas", "Diretor", "Petrobrans")
-p.presentation
 
 class Company < Person
   attr_reader :sede
