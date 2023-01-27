@@ -26,3 +26,18 @@ class NumeroMaior
   end
 end
 
+class Soma < NumeroMaior
+  attr_reader :n5
+  def initialize(n1, n2, n3, n4, n5)
+    super(n1, n2, n3, n4)
+    @n5 = n5
+  end
+
+  def resultado
+   valor = maior + @n5
+   puts valor
+  end
+end
+m = Soma.new(n1, n2, n3, n4, n5)
+
+ m.resultado
