@@ -26,6 +26,10 @@ class NumeroMaior
   end
 end
 
+m = NumeroMaior.new(n1, n2, n3, n4)
+
+nm = m.resultado
+
 class Soma < NumeroMaior
   attr_reader :n5
   def initialize(n1, n2, n3, n4, n5)
@@ -34,7 +38,7 @@ class Soma < NumeroMaior
   end
 
   def resultado
-   valor = maior + @n5
+   valor = nm + @n5
    puts valor
   end
 end
