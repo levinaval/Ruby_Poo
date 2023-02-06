@@ -24,8 +24,13 @@ class NumeroMaior
     elsif @n4 > @n1 and @n4 > @n2 and @n4 > @n3 then "O número maior é #{@n4}"
     else               "Não tem compareção" end
   end
+
+  def soma
+    maior + @n5
+  end
 end
 
 m = NumeroMaior.new(n1, n2, n3, n4)
 
-m.resultado
+m.maior
+m.soma
