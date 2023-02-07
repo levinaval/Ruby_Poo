@@ -8,8 +8,6 @@ puts "Terceiro número"
 n3 = gets.chomp.to_f
 puts "Quarto número"
 n4 = gets.chomp.to_f
-puts "Número à somar com o maior"
-n5 = gets.chomp.to_f
 
 class NumeroMaior
   attr_reader :n1, :n2, :n3, :n4
@@ -24,13 +22,8 @@ class NumeroMaior
     elsif @n4 > @n1 and @n4 > @n2 and @n4 > @n3 then "O número maior é #{@n4}"
     else               "Não tem compareção" end
   end
-
-  def soma
-    maior + @n5
-  end
 end
 
 m = NumeroMaior.new(n1, n2, n3, n4)
 
 m.maior
-m.soma
