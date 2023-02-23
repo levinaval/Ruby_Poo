@@ -1,4 +1,4 @@
-class Dinolssalro
+class Dinossalro
   def initialize
     
   end
