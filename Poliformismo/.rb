@@ -1,5 +1,5 @@
-class Dinossalro
-  def initialize
+class Dinossauro
+  def initialize(tiranossauro)
     
   end
 end
